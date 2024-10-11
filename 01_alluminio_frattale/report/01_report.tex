@@ -1,0 +1,110 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx} 
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage{geometry} 
+\usepackage{fancyhdr} % for headers and footers
+\usepackage{caption} % for customizing captions
+\usepackage{setspace} 
+\usepackage{enumitem} % for customizing lists
+\usepackage{biblatex} % for bibliography
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\addbibresource{references.bib} % specify your bibliography file
+
+
+\geometry{margin=1in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\doublespacing
+
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+ 
+\newcommand{\customtitlepage}{
+    
+
+    \begin{titlepage}
+        \includegraphics[width=0.9\textwidth]{logo.png}\\
+        \centering
+        \vspace*{1cm}
+        
+        \Huge\textbf{A Basic Study of Dimensionality}\\
+        \vspace{0.5cm}
+        \LARGE\textit{A Quantitative Approach}\\
+        \vspace{1.5cm}
+        
+        \textbf{Scientific Data Acquisition and Processing} \\
+        \textbf{Instructor Name:} Riccardo Barberi\\
+        \vspace{0.5cm}
+        
+        \textbf{Authors:}\\
+        \large Michele Arcuri, Luca Coscarelli, Nelson Manuel Mora Fernández\\
+        \vfill
+        
+        \large \textbf{Date of Submission:}\\
+        \today\\
+        \vspace{1.5cm}
+        
+        \small
+        Department of Physics \\
+        University of Calabria\\
+        \vspace{0.5cm}
+    \end{titlepage}
+}
+
+\begin{document}
+
+% Title page
+\customtitlepage
+
+% Abstract
+\begin{abstract}
+    A brief summary of the experiment.
+\end{abstract}
+
+
+% Keywords
+\section*{Keywords}
+List of relevant keywords 
+
+\newpage
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Introduction
+\section{Introduction}
+Describe the background of the experiment, its purpose, and theoretical foundations. Explain the relevance of the study and the hypothesis or questions being tested.
+
+% Materials and Methods (Tools and Procedure)
+\section{Materials and Methods}
+\subsection{Equipment and Tools}
+List the equipment, tools, and software used in the experiment.
+\subsection{Experimental Procedure}
+Detail the step-by-step process followed during the experiment, including any setup instructions, procedures, and configurations.
+
+% Results (Graphs and Data)
+\section{Results}
+Present all data collected, including graphs, tables, or charts. Explain the trends and observations found during the experiment.
+
+% Discussion and Analysis
+\section{Discussion and Analysis}
+Interpret the results, compare them with expected outcomes, and discuss any deviations or unexpected findings. Address possible sources of error and suggest improvements.
+
+% Conclusion
+\section{Conclusion}
+Summarize the main findings, confirm or refute the hypothesis, and suggest future research directions or practical applications.
+
+% Appendix
+\section{Appendix}
+Include supplementary information such as raw data, calculations, or additional graphs that are too detailed for the main report but are still relevant.
+
+% References
+\printbibliography
+
+\end{document}
