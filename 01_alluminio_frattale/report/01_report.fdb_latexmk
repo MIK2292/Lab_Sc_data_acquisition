@@ -1,19 +1,21 @@
 # Fdb version 4
-["biber 01_report"] 1728597030.91856 "01_report.bcf" "01_report.bbl" "01_report" 1728597304.58089 0
-  "01_report.bcf" 1728597303 107701 4a0f5aaf5614f8a7351c9426c079587e "pdflatex"
+["biber 01_report"] 1728597030.91856 "01_report.bcf" "01_report.bbl" "01_report" 1728675580.68769 0
+  "01_report.bcf" 1728675579 107701 4a0f5aaf5614f8a7351c9426c079587e "pdflatex"
   (generated)
   "01_report.bbl"
   "01_report.blg"
   (rewritten before read)
-["pdflatex"] 1728597299.77322 "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1728597304.58287 0
-  "01_report.aux" 1728597303 1189 3a8ae8424f29ad5c719198eaaa4975ad "pdflatex"
+["pdflatex"] 1728675576.57103 "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1728675580.68939 0
+  "01_report.aux" 1728675579 1189 04bdfd1f8b36ea95158e574681698051 "pdflatex"
   "01_report.bbl" 1728597042 486 ee04f40f768daeed26442158e95aba61 "biber 01_report"
-  "01_report.out" 1728597303 1003 2fe7d5891f555c9f3bcd579076edd50e "pdflatex"
-  "01_report.run.xml" 1728597303 2340 24f26c078767c8f654e9cae9fc99b15b "pdflatex"
-  "01_report.tex" 1728597298 3194 1fde398c01fb6723588fbaed3c06adde ""
-  "01_report.toc" 1728597303 590 27914d972b7b7b77dc042fbecfe3730a "pdflatex"
+  "01_report.out" 1728675579 1003 2fe7d5891f555c9f3bcd579076edd50e "pdflatex"
+  "01_report.run.xml" 1728675579 2340 24f26c078767c8f654e9cae9fc99b15b "pdflatex"
+  "01_report.tex" 1728675575 3316 45feba96b1b4b24460cf409b74afe2f3 ""
+  "01_report.toc" 1728675579 590 1ade79897b980941e2138a21d18db14e "pdflatex"
   "C:/Users/nelso/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1728596869 359308 9e8b812df874ed94138226ad1c0dad80 ""
   "C:/Users/nelso/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1719009835 24225046 fe4175041d5d4b38dc25e3a708f30bba ""
+  "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001775420 2900 1537cc8184ad1792082cd229ecc269f4 ""
+  "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -41,6 +43,7 @@
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb" 1215618300 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -117,7 +120,7 @@
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1728597298 3194 1fde398c01fb6723588fbaed3c06adde ""
+  "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1728675575 3316 45feba96b1b4b24460cf409b74afe2f3 ""
   "logo.png" 1725384143 26059 846809babc6cf8fc94a479b3d17fdb49 ""
   (generated)
   "01_report.aux"

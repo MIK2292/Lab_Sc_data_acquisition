@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  10 OCT 2024 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  11 OCT 2024 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -661,9 +661,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[3{C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: Empty bibliography on input line 108.
+LaTeX Warning: Empty bibliography on input line 115.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -684,17 +684,17 @@ Package logreq Info: Writing requests to '01_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18957 strings out of 474486
- 333586 string characters out of 5743755
- 1930542 words of memory out of 5000000
- 41028 multiletter control sequences out of 15000+600000
- 566399 words of font info for 66 fonts, out of 8000000 for 9000
+ 18964 strings out of 474486
+ 333719 string characters out of 5743755
+ 1931542 words of memory out of 5000000
+ 41033 multiletter control sequences out of 15000+600000
+ 566736 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,81p,890b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 01_report.pdf (5 pages, 132822 bytes).
+<C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on 01_report.pdf (5 pages, 140408 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
