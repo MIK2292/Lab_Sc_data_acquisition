@@ -88,19 +88,19 @@ One of the most famous fractal object is the Mandelbrot set, but we can find the
 objects also in nature, such as in the structure of a Romanesco Caullflower, or 
 from a physical point of view, polymers can be regarded as fractals as well.
 
-\begin{figure}
+\begin{figure}[h]
     \centering
-    \includegraphics[width = 0.8\textwidth]{..\foto\Cauliflower.jpg}
+    \includegraphics[width = 0.8\textwidth]{Cauliflower.jpg}
     \caption{An example of cauliflower seen from far away (left) and from up close (right)}
     \label{fig:Cauliflower}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \begin{minipage}{1\textwidth}
         \centering
-        \includegraphics[width = 0.45\textwidth]{..\foto\Mandelbrot_far.jpg}
-        \includegraphics[width = 0.45\textwidth]{..\foto\MAndelbrot_close.jpg}
+        \includegraphics[width = 0.42\textwidth]{Mandelbrot_far.jpg}
+        \includegraphics[width = 0.45\textwidth]{Mandelbrot_close.jpg}
     \end{minipage}
     \caption{The Mandelbrot set seen from far away (left) and from up close (right)}
     \label{fig:Mandelbrot}
@@ -116,18 +116,19 @@ the sheet, furthermore the mass grows as the square of the typical lenght of the
 sheet (the side of the square which we will call $r$). The formula will be the 
 following 
 \[ M = C r^2 \]
-where $C$ is the surface density of the material of the sheet.
+where $C$ is the surface density of the material of the sheet. We can say that the 
+dimension on the sheet of paper is equal to the exponent $2$.
 
 We can repat the same reasoning with a metal cube, obtaining ultimately the formula
 \[ M = D r^3 \]
-where $D$ is the volume density of the metal used. 
+where $D$ is the volume density of the metal used. It has of course $3$ dimensions.
 
 Now let's apply this method to our experiment. Since the physical data which we 
 will obtain will be the mass and the linear dimension of the system 
-(the tin foil ball) the parameters will be the general density $k$ and 
-the exponent $\alpha$ in the formula
+(the tin foil ball), the unknown parameters will be the general density $k$ and 
+the dimensionality exponent $\alpha$ in the formula
 \begin{equation} 
-    M_{\text{exp}} = k r_{\text{exp}}^{\alpha}
+    M_{\text{experimental}} = k r_{\text{experimental}}^{\alpha}
     \label{eq:gen_fractal}
 \end{equation}   
 
@@ -142,12 +143,45 @@ tin foil can be considered as a fractal.
     \item Precision balance
     \item Caliber
     \item Micrometer
-    \item Drawing rule and / or square
+    \item Drawing rule and square
     \item Scissors
     \item Aluminum foil
 \end{itemize}
+
 \subsection{Experimental Procedure}
-Detail the step-by-step process followed during the experiment, including any setup instructions, procedures, and configurations.
+We start off from the aluminum foil and we cut, using the scissors, a few square sheets of tin foil. 
+We have to be careful in cutting squares as perfect as possible in order to reduce the error in 
+the measurementes, to do so we make use of both the ruler and the square. We cut square of linear 
+dimension of $2mm$, $5mm$, $8mm$, $11mm$, $14mm$, $17mm$, $20mm$, $23mm$, $26mm$ and $29mm$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.45\textwidth]{Cauliflower.jpg}
+    \caption{All the direction in which we measured the lenght of the side of the aluminum foil squares}
+    \label{fig:sq_measure}
+\end{figure}
+
+Next, for each square, we measure the mass three times. We also make measurements of the different 
+lenghts of the square as represented in Fig \ref{fig:sq_measure} 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.45\textwidth]{Cauliflower.jpg}
+    \caption{All the direction in which we measured the lenght of the side of the aluminum foil squares}
+    \label{fig:sq_measure}
+\end{figure}
+
+We create an excel table with these measurements.
+
+Now, we roll up every tin foil square into a sphere trying to have each ball at the same density?????????????????????. 
+Since we do this operation by hand, we can only have an idea of its density. This is the step in the 
+procedure which adds up the most indetermination in the experiment.
+
+**foto dell'esperimento**
+
+Once finished, our last measurent will be to collect the information of the linear dimension (the radius) 
+of each ball. We use the caliber or the micrometer (depending on the size of the ball) to measure the diameter 
+of the ball along three different axis. We put this data in an excel spreadsheet.
 
 % Results (Graphs and Data)
 \section{Results}
