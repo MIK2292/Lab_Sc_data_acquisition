@@ -13,4 +13,4 @@ End note: Run from terminal (it should work like this also on windows)
 1. Open the folder of the program
 2. Right click on an empty space
 3. On the drop down menu click "*open in terminal*"
-4. write {python3 lin_reg.py}
+4. write ```python3 lin_reg.py```
