@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber 01_report"] 1728894742.13818 "01_report.bcf" "01_report.bbl" "01_report" 1728897105.73335 0
-  "01_report.bcf" 1728897104 132875 01bd7b954b62a114c3e08c22b3ac0b53 "pdflatex"
+["biber 01_report"] 1728894742.13818 "01_report.bcf" "01_report.bbl" "01_report" 1728942508.48958 0
+  "01_report.bcf" 1728942507 132875 01bd7b954b62a114c3e08c22b3ac0b53 "pdflatex"
   (generated)
   "01_report.bbl"
   "01_report.blg"
   (rewritten before read)
-["pdflatex"] 1728897100.41425 "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1728897105.73459 0
-  "01_report.aux" 1728897104 5561 e70c73ba84991274f089edaf9d410789 "pdflatex"
+["pdflatex"] 1728942499.03758 "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1728942508.49224 0
+  "01_report.aux" 1728942507 6063 d5b635dba95d1ce0b9d4bdb3ea3c494e "pdflatex"
   "01_report.bbl" 1728894754 486 ee04f40f768daeed26442158e95aba61 "biber 01_report"
-  "01_report.out" 1728897104 1662 0579a5293e4c12a5de1cc5cbc02674a5 "pdflatex"
-  "01_report.run.xml" 1728897104 2462 b7e8d17bd47cf22c9b0ce344371edc57 "pdflatex"
-  "01_report.tex" 1728897095 15682 9e0ae51baacde997d2f65d9f89344f46 ""
-  "01_report.toc" 1728897104 880 4b8c5487cf07e9bfbe162e6fc02b44cd "pdflatex"
+  "01_report.out" 1728942507 1662 0579a5293e4c12a5de1cc5cbc02674a5 "pdflatex"
+  "01_report.run.xml" 1728942507 2462 b7e8d17bd47cf22c9b0ce344371edc57 "pdflatex"
+  "01_report.tex" 1728942422 16941 ba4a5217303ebe0e18553444146da88f ""
+  "01_report.toc" 1728942507 880 5e5822f185e8c9e807a4f322757964a6 "pdflatex"
   "C:/Users/nelso/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1728729600 359308 9e8b812df874ed94138226ad1c0dad80 ""
   "C:/Users/nelso/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1719009835 24225046 fe4175041d5d4b38dc25e3a708f30bba ""
   "C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001775420 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -143,7 +143,8 @@
   "MAndelbrot_close.jpg" 1728725716 1134849 2efaed1cd2b4de0cba4f6832e0308815 ""
   "Mandelbrot_far.jpg" 1728725716 420066 7f6f9271a0aec8f799fcbca6ca847625 ""
   "Tin_foil_balls.jpg" 1728837177 2584166 be588f23bc018aa40c1c23a1756f9264 ""
-  "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1728897095 15682 9e0ae51baacde997d2f65d9f89344f46 ""
+  "c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1728942422 16941 ba4a5217303ebe0e18553444146da88f ""
+  "ln_mass_vs_ln_diameter.png" 1728942497 178787 71c516405e26ff83fbef62522c141499 ""
   "ln_mass_vs_ln_length.png" 1728854335 176052 c53afca66be9329e8e942cdf2332183a ""
   "logo.png" 1725384143 26059 846809babc6cf8fc94a479b3d17fdb49 ""
   "mass_vs_diameter.png" 1728896778 214307 26309fca0f43298b1faa0b9cb35b0cac ""
