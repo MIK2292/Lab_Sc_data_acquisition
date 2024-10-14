@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  14 OCT 2024 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  14 OCT 2024 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,8 +869,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./mass_vs_length.png>]
+<mass_vs_diameter.png, id=153, 507.3354pt x 350.5095pt>
+File: mass_vs_diameter.png Graphic file (type png)
+<use mass_vs_diameter.png>
+Package pdftex.def Info: mass_vs_diameter.png  used on input line 314.
+(pdftex.def)             Requested size: 362.37569pt x 250.36638pt.
 
-LaTeX Warning: Empty bibliography on input line 317.
+
+LaTeX Warning: Empty bibliography on input line 328.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -879,7 +885,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./ln_mass_vs_ln_length.png>] (01_report.aux)
+[10 <./ln_mass_vs_ln_length.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./mass_vs_diameter.png>] (01_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -891,17 +905,17 @@ Package logreq Info: Writing requests to '01_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21941 strings out of 474486
- 387996 string characters out of 5743755
+ 21954 strings out of 474486
+ 388260 string characters out of 5743755
  1940542 words of memory out of 5000000
- 43845 multiletter control sequences out of 15000+600000
- 569660 words of font info for 119 fonts, out of 8000000 for 9000
+ 43854 multiletter control sequences out of 15000+600000
+ 569709 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,12n,81p,890b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on 01_report.pdf (11 pages, 7315327 bytes).
+Output written on 01_report.pdf (12 pages, 7506314 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 33414 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 33419 words of extra memory for PDF output out of 35830 (max. 10000000)
 
