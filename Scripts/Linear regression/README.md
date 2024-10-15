@@ -1,4 +1,5 @@
-# Linear Regression using Python
+# Linear Regression using Python 
+## UPDATE: now it does the regression considering the Y error, but not X error
 
 Usage: 
 1. upload the data to be fitted in "*put_here_data_to_fit.ods*" (you can overwrite what it is written now)
@@ -6,6 +7,9 @@ Usage:
 3. look at the result
 
 **CAUTION**:<br>
+The error in the Linear Regression is evaluated only considering the Y error. X values are considered exact. The old version did not even considered the Y error. Taylor does not describe how to consider both errors.
+
+**CAUTION 2**:<br>
 the data in the txt file is written in exponential format, jupyter will understand it. If excel is not too stupid he will, too.
 There is no need to change it. 
 

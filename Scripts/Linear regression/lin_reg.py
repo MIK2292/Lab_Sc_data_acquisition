@@ -1,7 +1,7 @@
 import numpy as np
 from pandas import read_excel
 import matplotlib.pyplot as plt
-from sklearn import datasets, linear_model
+from sklearn import linear_model
 
 
 # y = Ax + B
@@ -13,28 +13,33 @@ Dataframe = read_excel(Filename)
 #assignment of values
 X = Dataframe.X.values
 Y = Dataframe.Y.values
-Xerr = Dataframe.Xerr.values
+Xerr = Dataframe.Xerr.values #used only in the plot
 Yerr = Dataframe.Yerr.values
 Ndata = len(X)
+
+#weight calculation
+#Xweight = Xerr**(-2)
+Yweight = Yerr**(-2)
 
 
 # +++ Regression evaluation +++
 # y = Ax + B
 
-#adjust data for regression
+#adjust data for regression (only X needs to be reshaped)
 x = X.reshape(Ndata, 1)
-y = Y.reshape(Ndata, 1)
+y = Y
 
-#evaluate the regression
+#evaluate the regression considering only the y error
 regr = linear_model.LinearRegression(fit_intercept = True)
-regr.fit(x, y)
+regr.fit(x, y, sample_weight=Yweight)
 
 #saving values
 A = regr.coef_[0][0]	#Coefficient
 B = regr.intercept_[0]	#Intercept
 
 
-# +++ ERROR evaluation +++
+'''
+# +++ ERROR evaluation without weights +++
 # y = Ax + B
 
 #variables declaration
@@ -56,6 +61,22 @@ sigmay = np.sqrt( Somma/(Ndata - 2) )
 #and saving error values
 sigmaA = sigmay * np.sqrt(Sx2 / Delta)
 sigmaB = sigmay * np.sqrt(Ndata / Delta)
+'''
+
+# +++ ERROR evaluation with only Y weights +++
+# y = Ax + B
+#Taylor, p201
+
+#variables declaration
+S_weight = sum(Yweight)
+S_weight_x = sum(Yweight * X)
+S_weight_x2 = sum(Yweight * X * X)
+
+Delta = (S_weight * S_weight_x2) - (S_weight_x)**2
+
+sigmaA = np.sqrt(S_weight_x2 / Delta)
+sigmaB = np.sqrt(S_weight / Delta)
+
 
 
 '''
@@ -85,16 +106,16 @@ def output_txt_file():
 	with open('output.txt', 'w') as file:
 	    # Write the message to the file
 	    file.write("Copy the following lines to jupyter notebook:\n")
-	    file.write("Coefficient = %.15e\n" % A)
-	    file.write("Intercept = %.15e\n" % B)
-	    file.write("Coefficient_error = %.15e\n" % sigmaA)
-	    file.write("Intercept_error = %.15e\n" % sigmaB)
-	    file.write("\n")
-	    file.write("Copy the following lines to excel:\n")
-	    file.write("Coefficient\t%.15e\n" % A)
-	    file.write("Intercept\t%.15e\n" % B)
-	    file.write("Coefficient_error\t%.15e\n" % sigmaA)
-	    file.write("Intercept_error\t%.15e\n" % sigmaB)
+		file.write("Coefficient = %.15e\n" % A)
+		file.write("Intercept = %.15e\n" % B)
+		file.write("Coefficient_error = %.15e\n" % sigmaA)
+		file.write("Intercept_error = %.15e\n" % sigmaB)
+		file.write("\n")
+		file.write("Copy the following lines to excel:\n")
+		file.write("Coefficient\t%.15e\n" % A)
+		file.write("Intercept\t%.15e\n" % B)
+		file.write("Coefficient_error\t%.15e\n" % sigmaA)
+		file.write("Intercept_error\t%.15e\n" % sigmaB)
 	
 	
 def output_plot():
