@@ -51,17 +51,13 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
-      <file>apa.dbx</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>apa.bbx</file>
-      <file>apa.cbx</file>
+      <file>numeric.bbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
-      <file>american.lbx</file>
-      <file>american-apa.lbx</file>
-      <file>english-apa.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
@@ -83,7 +79,7 @@
       <file>01_report.bcf</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>Sci. Data_01.bib</file>
     </requires>
   </external>
 </requests>

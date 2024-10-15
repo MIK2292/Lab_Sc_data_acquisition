@@ -5,14 +5,15 @@
 \usepackage{geometry} 
 \usepackage{fancyhdr} % for headers and footers
 \usepackage{caption} % for customizing captions
+\usepackage{subcaption}
 \usepackage{setspace} 
 \usepackage[bottom]{footmisc}
 \usepackage{placeins}
 \usepackage[nopatch=item]{microtype}
 \usepackage{enumitem} % for customizing lists
-\usepackage[style=apa, backend=biber]{biblatex} % for bibliography
+\usepackage[backend=biber]{biblatex} % for bibliography
 \usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\addbibresource{references.bib} % specify your bibliography file
+\addbibresource{Sci. Data_01.bib} % specify your bibliography file
 
 \setlength{\parindent}{1.27cm} % Indent first line of each paragraph by 1.27 cm (0.5 inches)
 
@@ -90,24 +91,34 @@ of a very simple physical object: a small tin foil ball.
 property, in simpler words, they look the same when observed at different scales.
 One of the most famous fractal object is the Mandelbrot set, but we can find these 
 objects also in nature, such as in the structure of a Romanesco Caullflower, or 
-from a physical point of view; polymers can be regarded as fractals as well.
+from a physical point of view; polymers can be regarded as fractals as well \cite{rubinstein-2003}.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width = 0.8\textwidth]{Cauliflower.jpg}
-    \caption{An example of cauliflower seen from far away (left) and from up close (right).}
-    \label{fig:Cauliflower}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \begin{minipage}{1\textwidth}
-        \centering
-        \includegraphics[width = 0.45\textwidth]{Mandelbrot_far.jpg}
-        \includegraphics[width = 0.45\textwidth]{MAndelbrot_close.jpg}
-    \end{minipage}
-    \caption{The Mandelbrot set seen from far away (left) and from up close (right).}
-    \label{fig:Mandelbrot}
+    \fbox{%
+        \begin{minipage}{0.95\textwidth} % Adjust the width of the box
+            \centering
+            
+            % Cauliflower images
+            \begin{subfigure}[b]{0.50\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Cauliflower1.jpg}
+                \includegraphics[width=\textwidth]{Cauliflower.jpg}
+                \caption{Cauliflower from far and up close.}
+                \label{fig:Cauliflower}
+            \end{subfigure} 
+            \hfill
+            % Mandelbrot images
+            \begin{subfigure}[b]{0.47\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Mandelbrot_far.jpg}
+                \includegraphics[width=\textwidth]{Mandelbrot_close.jpg}
+                \caption{Mandelbrot set from far (top) and up close (bottom).}
+                \label{fig:Mandelbrot}
+            \end{subfigure}
+            
+        \end{minipage}%
+    }
 \end{figure}
 
 \par We can observe the same level of complexity of the images as seen from far away 
@@ -153,7 +164,7 @@ tin foil can be considered as a fractal.
 \end{itemize}
 
 \subsection{Experimental Procedure}
-We begin checking that we have everything at our disposal (Fig. \ref{fig:lab_instr}).
+We begin by checking that we have everything at our disposal. In order to do so, we set up the laboratory as shown in Fig. (\ref{fig:lab_instr}).
 Then we start off from the aluminum foil and we cut, using the scissors, a few square sheets of tin foil. 
 We have to be careful in cutting squares as perfect as possible in order to reduce the error in 
 the measurementes; to do so, we make use of both the ruler and the square. We cut squares of linear 
@@ -175,7 +186,7 @@ lenghts of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we 
     \label{fig:sq_measure}
 \end{figure}
 
-Now, we roll up every tin foil square into a sphere trying to have each ball at the same density Fig. (\ref{fig:tf_balls}). 
+Now, we roll up every tin foil square into a sphere trying to have each ball at the same density as shown in Fig. (\ref{fig:tf_balls}). 
 Since we do this operation by hand, we can only have an idea of its density. This is the step in the 
 procedure which, according to us, correspond to the biggest source of error in the experiment.
 
@@ -188,7 +199,7 @@ procedure which, according to us, correspond to the biggest source of error in t
 
 Once finished, our last measurent was to collect the information of the linear dimension (its diameter) 
 of each ball. We use the caliber or the micrometer (depending on the size of the ball) to measure the diameter 
-of the ball along three different axis. We put this data in an excel spreadsheet.
+of the ball along three different axis. We put this data in an excel spreadsheet too.
 
 % Results (Graphs and Data)
 \section{Results}\label{sec:results}
@@ -246,7 +257,7 @@ For the second part of the experiment, after having rolled up all the squares in
 
 
 \subsection{Remarks on the Data processing} 
-We also compute the natural logarithm of the mean values of the mass, the diameter and the lenght shown in the tables above. The related errors are calculated using traditional methods of error propagation (ref), having taking into account the uncertainties of both casual and systematic nature. The results are shown in Table (\ref{tab:ln_errors}). These quantities will be useful in the following sections for the computation of the fractal dimension of the system using the well known Least Squares method.
+We also compute the natural logarithm of the mean values of the mass, the diameter and the lenght shown in the tables above. The related errors are calculated using traditional methods of error propagation \cite{taylor-1997}, having taking into account the uncertainties of both casual and systematic nature. The results are shown in Table (\ref{tab:ln_errors}). These quantities will be useful in the following sections for the computation of the fractal dimension of the system using the well known Least Squares method.
 
 
 \begin{table}[!ht]
@@ -326,6 +337,8 @@ Finally, we compare the previous results with the ones obtained from the Least S
     \label{fig:ln_mass_vs_ln_diameter}
 \end{figure}
 
+As before, we use the Least Square method to compute the parameters of the power law we are interested in. In Fig. (\ref{fig:ln_mass_vs_ln_diameter}), we show the linear law that best fits the data, whose parameters are $\ln(k) = -6.60 \pm 0.22$ and $\alpha = 2.16 \pm  0.08$. These results are closer to the ones expected and we consider them more reliable than the ones obtained from the previous method.
+
 % Conclusion
 \section{Conclusion}\label{sec:conclusion}
 Summarize the main findings, confirm or refute the hypothesis, and suggest future research directions or practical applications.
@@ -335,6 +348,7 @@ Summarize the main findings, confirm or refute the hypothesis, and suggest futur
 Include supplementary information such as raw data, calculations, or additional graphs that are too detailed for the main report but are still relevant.
 
 % References
+\newpage
 \printbibliography
 
 \end{document}
