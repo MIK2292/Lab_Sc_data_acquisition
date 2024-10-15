@@ -1,5 +1,5 @@
 # Linear Regression using Python 
-## UPDATE: now it does the regression considering the X error, but not Y error
+## It does the regression considering the X error, but not Y error
 
 Usage: 
 1. upload the data to be fitted in "*put_here_data_to_fit.ods*" (you can overwrite what it is written now)
@@ -21,8 +21,12 @@ End note: Run from terminal (it should work like this also on windows)
 
 ## How this magic works
 
-The idea is to reverse the axis ( (x-y) -> (y-x) ), in this way the error on the X data becomes error on the Y data. Now we can use the Y error linear regression and get the coefficients in (y-x). Then we reverse the fit in (y-x), in formulae we go from $x = Ay + B$ to $y = C(A,B)x + D(A,B)$<br>
-The coefficients C e D are what we are searching.
+The idea is to reverse the axis ( (x-y) -> (y-x) ), in this way the error on the X data becomes error on the Y data.<br>
+Now we can use the Y error linear regression and get the coefficients in (y-x).<br>
+Then we reverse the fit in (y-x), in formulae we go from $x = Ay + B$ to $y = C(A,B)x + D(A,B)$<br>
+The coefficients C e D are what we are searching.<br>
+<br>
+At the beginning of the code there are the calculation.
 
 
 
