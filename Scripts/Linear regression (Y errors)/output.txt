@@ -1,0 +1,11 @@
+Copy the following lines to jupyter notebook:
+Coefficient = 1.053049281220778e-01
+Intercept = -7.654017208160118e-01
+Coefficient_error = 2.371643096235876e-16
+Intercept_error = 1.805546862843313e-17
+
+Copy the following lines to excel:
+Coefficient	1.053049281220778e-01
+Intercept	-7.654017208160118e-01
+Coefficient_error	2.371643096235876e-16
+Intercept_error	1.805546862843313e-17
