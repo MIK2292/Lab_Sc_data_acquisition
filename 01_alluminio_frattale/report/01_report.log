@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  14 OCT 2024 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  15 OCT 2024 08:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -922,15 +922,15 @@ Package logreq Info: Writing requests to '01_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21966 strings out of 474486
- 388558 string characters out of 5743755
+ 21974 strings out of 474486
+ 388612 string characters out of 5743755
  1940542 words of memory out of 5000000
  43862 multiletter control sequences out of 15000+600000
- 569758 words of font info for 121 fonts, out of 8000000 for 9000
+ 569955 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,12n,81p,940b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on 01_report.pdf (13 pages, 7667060 bytes).
+Output written on 01_report.pdf (13 pages, 7666982 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)

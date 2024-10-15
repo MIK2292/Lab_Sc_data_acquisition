@@ -2,6 +2,8 @@ import numpy as np
 from pandas import read_excel
 import matplotlib.pyplot as plt
 from sklearn import datasets, linear_model
+import file 
+
 
 
 # y = Ax + B
