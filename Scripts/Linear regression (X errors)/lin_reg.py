@@ -1,12 +1,41 @@
 import numpy as np
 from pandas import read_excel
 import matplotlib.pyplot as plt
-from sklearn import datasets, linear_model
+from sklearn import linear_model
 
+'''
+L'idea è di invertire gli assi x-y in y-x 
+e trovare i coeff A e B della retta nel piano y-x,
+quindi invertiamo analiticamente l'eq della retta per rappresentarla nel piano x-y
 
+Il vantaggio è che consideriamo gli errori su x, trascurando quelli su y
+'''
 
+'''
+CALCOLI: inversione di 
+# x = Ay + B	(1)
+in 
+# y = Cx + D	(2)
 
-# y = Ax + B
+Vogliamo la dipendenza di C e D da A e B, cioè vogliamo trovare C(A,B) e D(A,B)
+Divido la (1) per A
+	=> x/A = y + B/A
+	=> y = (1/A) * x - B/A 
+cioè
+	C = 1/A
+	D = -B/A
+
+Vediamo ora gli ERRORI:
+Per moltiplicazione e divisione si sommano gli errori relativi
+
+C = 1/A
+errC = | C * |errA / A| |
+	= | errA / A^2 |
+
+D = -B/A
+errD = | D * (  |errA / A| + |errB / B|  ) |
+	= | ( B / A ) * (  |errA / A| + |errB / B|  ) | 
+'''
 
 #import data from file
 Filename = "put_here_data_to_fit.ods"
@@ -15,29 +44,29 @@ Dataframe = read_excel(Filename)
 #assignment of values
 X = Dataframe.X.values
 Y = Dataframe.Y.values
-Xerr = Dataframe.Xerr.values #used only in the plot
-Yerr = Dataframe.Yerr.values
+Xerr = Dataframe.Xerr.values 
+Yerr = Dataframe.Yerr.values #used only in the plot
 Ndata = len(X)
 
 #weight calculation
-#Xweight = Xerr**(-2)
-Yweight = Yerr**(-2)
+Xweight = Xerr**(-2)
+#Yweight = Yerr**(-2)
 
 
 # +++ Regression evaluation +++
 # y = Ax + B
 
-#adjust data for regression (only X needs to be reshaped)
-x = X.reshape(Ndata, 1)
-y = Y
+#adjust data for regression (only "X" needs to be reshaped)
+x = X
+y = Y.reshape(Ndata, 1)
 
-#evaluate the regression considering only the y error
+#evaluate the regression considering only the "y" error
 regr = linear_model.LinearRegression(fit_intercept = True)
-regr.fit(x, y, sample_weight=Yweight)
+regr.fit(y, x, sample_weight=Xweight)
 
 #saving values
-A = regr.coef_[0][0]	#Coefficient
-B = regr.intercept_[0]	#Intercept
+A = regr.coef_[0]#[0]	#Coefficient
+B = regr.intercept_#[0]	#Intercept
 
 
 '''
@@ -70,13 +99,13 @@ sigmaB = sigmay * np.sqrt(Ndata / Delta)
 #Taylor, p201
 
 #variables declaration
-S_weight = sum(Yweight)
-S_weight_x = sum(Yweight * X)
-S_weight_x2 = sum(Yweight * X * X)
+S_weight = sum(Xweight)
+S_weight_y = sum(Xweight * Y)
+S_weight_y2 = sum(Xweight * Y * Y)
 
-Delta = (S_weight * S_weight_x2) - (S_weight_x)**2
+Delta = (S_weight * S_weight_y2) - (S_weight_y)**2
 
-sigmaA = np.sqrt(S_weight_x2 / Delta)
+sigmaA = np.sqrt(S_weight_y2 / Delta)
 sigmaB = np.sqrt(S_weight / Delta)
 
 
@@ -94,6 +123,32 @@ sigmaB			#Intercept error
 
 '''
 
+
+
+#Now we can reverse again both axis 
+'''
+Recap from before:
+
+C = 1/A
+errC = | errA / A^2 |
+
+D = -B/A
+errD = | ( B / A ) * (  |errA / A| + |errB / B|  ) | 
+'''
+C = 1/A
+sigmaC = np.abs( sigmaA / (A**2) )
+
+D = -B/A
+sigmaD = np.abs(  ( B / A ) * ( np.abs( sigmaA / A ) + np.abs( sigmaB / B ) )  )
+
+
+#Update A and B
+A = C
+B = D
+sigmaA = sigmaC
+sigmaB = sigmaD
+
+
 def output_terminal():
 	#output over terminal
 	print("Coefficient \t\t= %.6f\t= %.6e" % (A, A))
@@ -105,19 +160,20 @@ def output_terminal():
 def output_txt_file():
 	#output over txt file to copy end values to jupiter notebook or excel file
 	# Open a file in write mode (this will create the file if it doesn't exist)
-	with open('output.txt', 'w') as file:
-	    # Write the message to the file
-	    file.write("Copy the following lines to jupyter notebook:\n")
-		file.write("Coefficient = %.15e\n" % A)
-		file.write("Intercept = %.15e\n" % B)
-		file.write("Coefficient_error = %.15e\n" % sigmaA)
-		file.write("Intercept_error = %.15e\n" % sigmaB)
-		file.write("\n")
-		file.write("Copy the following lines to excel:\n")
-		file.write("Coefficient\t%.15e\n" % A)
-		file.write("Intercept\t%.15e\n" % B)
-		file.write("Coefficient_error\t%.15e\n" % sigmaA)
-		file.write("Intercept_error\t%.15e\n" % sigmaB)
+	file = open('output.txt', 'w')
+	# Write the message to the file
+	file.write("Copy the following lines to jupyter notebook:\n")
+	file.write("Coefficient = %.15e\n" % A)
+	file.write("Intercept = %.15e\n" % B)
+	file.write("Coefficient_error = %.15e\n" % sigmaA)
+	file.write("Intercept_error = %.15e\n" % sigmaB)
+	file.write("\n")
+	file.write("Copy the following lines to excel:\n")
+	file.write("Coefficient\t%.15e\n" % A)
+	file.write("Intercept\t%.15e\n" % B)
+	file.write("Coefficient_error\t%.15e\n" % sigmaA)
+	file.write("Intercept_error\t%.15e\n" % sigmaB)
+	file.close()
 	
 	
 def output_plot():
@@ -136,8 +192,8 @@ def output_plot():
 	plt.legend()
 	plt.grid()
 	
-	plt.show()
 	plt.savefig("output_plot.png")
+	plt.show()
 
 
 
