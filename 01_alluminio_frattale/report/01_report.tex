@@ -100,7 +100,7 @@ of a very simple physical object: a small tin foil ball.
 \par Fractal objects are objects which are characterised of the self-similarity 
 property, in simpler words, they look the same when observed at different scales.
 One of the most famous fractal object is the Mandelbrot set, but we can find these 
-objects also in nature, such as in the structure of a Romanesco Caullflower, or 
+objects also in nature, such as in the structure of a Romanesco Cauliflower, or 
 from a physical point of view; polymers can be regarded as fractals as well.
 
 \begin{figure}[h]
@@ -299,7 +299,7 @@ The power law obtained from the data is given by the the equation
 \begin{equation}\label{eq:mass_vs_length}
     M = 0.0034 L^{1.9928}
 \end{equation}
-where $M$ correspond to the mass of the aluminum squares and $L$ to its linear dimension. The exponent of the power law is very close to $2$, which is the expected 
+where $M$ corresponds to the mass of the aluminum squares and $L$ to its linear dimension. The exponent of the power law is very close to $2$, which is the expected 
 value for a two-dimensional object. This law was obtained numerically using the Python library \texttt{scipy} and the function \texttt{curve\_fit} (see Appendix ref). 
 This is a very satisfactory result supported by the associated $R^2$ parameter, which validates the fit of the data to the expected power law.  
 
@@ -308,7 +308,7 @@ the natural logarithm of the general law $M = k L^{\alpha}$, obtaining
 \begin{equation}
     \ln(M) = \ln(k) + \alpha \ln(L),
 \end{equation}
-which clearly describe a linear dependenc between the natural logarithm of the mass and the natural logarithm of the linear dimension. Using the data from Table (\ref{tab:ln_errors}), we can plot this relationship and compute the parameters $k$ and $\alpha$ using the Least Squares method. The results are shown in Fig. (\ref{fig:ln_mass_vs_ln_length}).
+which clearly describe a linear dependence between the natural logarithm of the mass and the natural logarithm of the linear dimension. Using the data from Table (\ref{tab:ln_errors}), we can plot this relationship and compute the parameters $k$ and $\alpha$ using the Least Squares method. The results are shown in Fig. (\ref{fig:ln_mass_vs_ln_length}).
 \begin{figure}[h!]
     \centering
     \includegraphics[width = 0.8\textwidth]{ln_mass_vs_ln_length.png}
@@ -340,16 +340,16 @@ Finally, we compare the previous results with the ones obtained from the Least S
 
 % Conclusion
 \section{Conclusion}\label{sec:conclusion}
-The purpose of this experience is to demonstrate that the fractal dimension
-of our aluminum tinfoil spheres , neither completely full nor completely empty, is
-between 2 and 3. Following the procedure shown in (\ref{subsec:Experimental procedure}),
-we measured the sides of the alluminum squares and then crumpled in to alluminum spheres.
-All the collected data in shown in the tables (\ref{tab:squares}), (\ref{tab:balls}). 
-Next, we analyzed the graphs (\ref{fig:mass_vs_length}), (\ref{fig:ln_mass_vs_ln_length}), (\ref{fig:mass_vs_diameter}), (\ref{fig:ln_mass_vs_ln_diameter}) by initially applying a power law, followed by linear 
-regression after linearizing the equation (\ref{eq:gen_fractal}).
-After that, is it possible to compare te results obtained with the power law with the ones obtained
-using the linear regression.
+The purpose of this experiment is to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
+which are neither completely solid nor completely hollow, falls between 2 and 3.
+Following the procedure outlined in (\ref{subsec:Experimental procedure}),
+we measured the sides of the alluminum squares and then crumpled them into alluminum spheres.
+All the collected data in shown in tables (\ref{tab:squares}) and (\ref{tab:balls}). 
+Next, we analyzed the graphs (\ref{fig:mass_vs_length}), (\ref{fig:ln_mass_vs_ln_length}), (\ref{fig:mass_vs_diameter}), (\ref{fig:ln_mass_vs_ln_diameter}) 
+initially applying a power law, followed by linear regression after linearizing Equation (\ref{eq:gen_fractal}).
+Afterward, is it possible to compare te results obtained with the power law with those obtained from the linear regression.
 
+%add results and final remarks
 
 % Appendix
 \section{Appendix}

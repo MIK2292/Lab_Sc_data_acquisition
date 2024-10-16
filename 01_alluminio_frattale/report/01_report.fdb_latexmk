@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber 01_report"] 1728996854.21633 "01_report.bcf" "01_report.bbl" "01_report" 1729078126.39319 0
-  "01_report.bcf" 1729078125 133717 a671ae17252f857ca7a54de7139d690b "pdflatex"
+["biber 01_report"] 1728996854.21633 "01_report.bcf" "01_report.bbl" "01_report" 1729079395.20365 0
+  "01_report.bcf" 1729079394 133717 a671ae17252f857ca7a54de7139d690b "pdflatex"
   (generated)
   "01_report.bbl"
   "01_report.blg"
   (rewritten before read)
-["pdflatex"] 1729078122.32156 "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1729078126.394 0
-  "01_report.aux" 1729078125 6163 c2adaeb51ed58293cb40ec9c37efb4da "pdflatex"
+["pdflatex"] 1729079390.91748 "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1729079395.20469 0
+  "01_report.aux" 1729079394 6163 c2adaeb51ed58293cb40ec9c37efb4da "pdflatex"
   "01_report.bbl" 1728996857 486 76d65a242ec496c9b4361af646ff12cb "biber 01_report"
-  "01_report.out" 1729078125 1662 0579a5293e4c12a5de1cc5cbc02674a5 "pdflatex"
-  "01_report.run.xml" 1729078125 2462 b7e8d17bd47cf22c9b0ce344371edc57 "pdflatex"
-  "01_report.tex" 1729078121 17952 8d84e0179b5c6e8f5b9076c03b9311ec ""
-  "01_report.toc" 1729078125 880 5e5822f185e8c9e807a4f322757964a6 "pdflatex"
+  "01_report.out" 1729079394 1662 0579a5293e4c12a5de1cc5cbc02674a5 "pdflatex"
+  "01_report.run.xml" 1729079394 2462 b7e8d17bd47cf22c9b0ce344371edc57 "pdflatex"
+  "01_report.tex" 1729079390 17994 73bcb5d6131f0513c88db8a5a817b8e9 ""
+  "01_report.toc" 1729079394 880 5e5822f185e8c9e807a4f322757964a6 "pdflatex"
   "C:/Users/lucac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1728973018 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lucac/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1728973031 14064 c67b0dde66620f00c6f18f3c86471554 ""
   "C:/Users/lucac/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727952671 11948197 c96530308ee783e898febcb31119d02a ""
@@ -141,7 +141,7 @@
   "MAndelbrot_close.jpg" 1728972777 1134849 2efaed1cd2b4de0cba4f6832e0308815 ""
   "Mandelbrot_far.jpg" 1728972777 420066 7f6f9271a0aec8f799fcbca6ca847625 ""
   "Tin_foil_balls.jpg" 1728972777 2584166 be588f23bc018aa40c1c23a1756f9264 ""
-  "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1729078121 17952 8d84e0179b5c6e8f5b9076c03b9311ec ""
+  "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1729079390 17994 73bcb5d6131f0513c88db8a5a817b8e9 ""
   "ln_mass_vs_ln_diameter.png" 1728972777 178787 71c516405e26ff83fbef62522c141499 ""
   "ln_mass_vs_ln_length.png" 1728972777 176052 c53afca66be9329e8e942cdf2332183a ""
   "logo.png" 1728972777 26059 846809babc6cf8fc94a479b3d17fdb49 ""
