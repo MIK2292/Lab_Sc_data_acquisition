@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.3)  16 OCT 2024 22:53
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  15 OCT 2024 16:09
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -158,9 +162,21 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen168
 Package caption Info: Standard document class detected.
 )
+<<<<<<< HEAD
 \c@caption@flags=\count283
 \c@continuedfloat=\count284
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+=======
+\c@caption@flags=\count276
+\c@continuedfloat=\count277
+) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count278
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count279
+) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
@@ -179,11 +195,19 @@ Package: placeins 2005/04/18  v 2.2
 Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+<<<<<<< HEAD
 \etb@tempcnta=\count285
 )
 \MT@toks=\toks25
 \MT@tempbox=\box54
 \MT@count=\count286
+=======
+\etb@tempcnta=\count280
+)
+\MT@toks=\toks25
+\MT@tempbox=\box53
+\MT@count=\count281
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
 LaTeX Info: Redefining \leftprotrusion on input line 1062.
 \MT@prot@toks=\toks26
@@ -191,8 +215,13 @@ LaTeX Info: Redefining \rightprotrusion on input line 1081.
 LaTeX Info: Redefining \textls on input line 1392.
 \MT@outer@kern=\dimen171
 LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
+<<<<<<< HEAD
 \MT@listname@count=\count287
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+=======
+\MT@listname@count=\count282
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 902.
 LaTeX Info: Redefining \lslig on input line 902.
@@ -206,12 +235,21 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip64
 \enit@outerparindent=\dimen172
 \enit@toks=\toks27
+<<<<<<< HEAD
 \enit@inbox=\box55
 \enit@count@id=\count288
 \enitdp@description=\count289
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+=======
+\enit@inbox=\box54
+\enit@count@id=\count283
+\enitdp@description=\count284
+) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
@@ -227,8 +265,13 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
+<<<<<<< HEAD
 \lrq@indent=\count290
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+=======
+\lrq@indent=\count285
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
@@ -236,6 +279,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+<<<<<<< HEAD
 \c@tabx@nest=\count291
 \c@listtotal=\count292
 \c@listcount=\count293
@@ -293,11 +337,71 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincomprange=\count334
 \c@maxcomprange=\count335
 \c@mincompwidth=\count336
+=======
+\c@tabx@nest=\count286
+\c@listtotal=\count287
+\c@listcount=\count288
+\c@liststart=\count289
+\c@liststop=\count290
+\c@citecount=\count291
+\c@citetotal=\count292
+\c@multicitecount=\count293
+\c@multicitetotal=\count294
+\c@instcount=\count295
+\c@maxnames=\count296
+\c@minnames=\count297
+\c@maxitems=\count298
+\c@minitems=\count299
+\c@citecounter=\count300
+\c@maxcitecounter=\count301
+\c@savedcitecounter=\count302
+\c@uniquelist=\count303
+\c@uniquename=\count304
+\c@refsection=\count305
+\c@refsegment=\count306
+\c@maxextratitle=\count307
+\c@maxextratitleyear=\count308
+\c@maxextraname=\count309
+\c@maxextradate=\count310
+\c@maxextraalpha=\count311
+\c@abbrvpenalty=\count312
+\c@highnamepenalty=\count313
+\c@lownamepenalty=\count314
+\c@maxparens=\count315
+\c@parenlevel=\count316
+\blx@tempcnta=\count317
+\blx@tempcntb=\count318
+\blx@tempcntc=\count319
+\c@blx@maxsection=\count320
+\blx@maxsegment@0=\count321
+\blx@notetype=\count322
+\blx@parenlevel@text=\count323
+\blx@parenlevel@foot=\count324
+\blx@sectionciteorder@0=\count325
+\blx@sectionciteorderinternal@0=\count326
+\blx@entrysetcounter=\count327
+\blx@biblioinstance=\count328
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count329
+\c@maxcomprange=\count330
+\c@mincompwidth=\count331
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
+<<<<<<< HEAD
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
@@ -397,6 +501,92 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip84
 \localshortauthorwidth=\skip85
 \localshorteditorwidth=\skip86
+=======
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count332
+\c@savedafterword=\count333
+\c@annotator=\count334
+\c@savedannotator=\count335
+\c@author=\count336
+\c@savedauthor=\count337
+\c@bookauthor=\count338
+\c@savedbookauthor=\count339
+\c@commentator=\count340
+\c@savedcommentator=\count341
+\c@editor=\count342
+\c@savededitor=\count343
+\c@editora=\count344
+\c@savededitora=\count345
+\c@editorb=\count346
+\c@savededitorb=\count347
+\c@editorc=\count348
+\c@savededitorc=\count349
+\c@foreword=\count350
+\c@savedforeword=\count351
+\c@holder=\count352
+\c@savedholder=\count353
+\c@introduction=\count354
+\c@savedintroduction=\count355
+\c@namea=\count356
+\c@savednamea=\count357
+\c@nameb=\count358
+\c@savednameb=\count359
+\c@namec=\count360
+\c@savednamec=\count361
+\c@translator=\count362
+\c@savedtranslator=\count363
+\c@shortauthor=\count364
+\c@savedshortauthor=\count365
+\c@shorteditor=\count366
+\c@savedshorteditor=\count367
+\c@labelname=\count368
+\c@savedlabelname=\count369
+\c@institution=\count370
+\c@savedinstitution=\count371
+\c@lista=\count372
+\c@savedlista=\count373
+\c@listb=\count374
+\c@savedlistb=\count375
+\c@listc=\count376
+\c@savedlistc=\count377
+\c@listd=\count378
+\c@savedlistd=\count379
+\c@liste=\count380
+\c@savedliste=\count381
+\c@listf=\count382
+\c@savedlistf=\count383
+\c@location=\count384
+\c@savedlocation=\count385
+\c@organization=\count386
+\c@savedorganization=\count387
+\c@origlocation=\count388
+\c@savedoriglocation=\count389
+\c@origpublisher=\count390
+\c@savedorigpublisher=\count391
+\c@publisher=\count392
+\c@savedpublisher=\count393
+\c@language=\count394
+\c@savedlanguage=\count395
+\c@origlanguage=\count396
+\c@savedoriglanguage=\count397
+\c@pageref=\count398
+\c@savedpageref=\count399
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -404,6 +594,7 @@ File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
+<<<<<<< HEAD
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \c@textcitecount=\count415
@@ -445,18 +636,50 @@ Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined,
 Package biblatex Info: Redefining '\fullcite'.
 Package biblatex Info: Redefining '\citeauthor'.
 Package biblatex Info: Redefining '\citeyear'.
+=======
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count400
+\c@textcitetotal=\count401
+\c@textcitemaxnames=\count402
+\c@biburlbigbreakpenalty=\count403
+\c@biburlbreakpenalty=\count404
+\c@biburlnumpenalty=\count405
+\c@biburlucpenalty=\count406
+\c@biburllcpenalty=\count407
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count408
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count409
+\c@bbx:relatedtotal=\count410
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -465,12 +688,21 @@ File: biblatex.cfg
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
+<<<<<<< HEAD
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-08-30 L3 programming layer (loader) 
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count426
 \l__pdf_internal_box=\box56
+=======
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count411
+\l__pdf_internal_box=\box55
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-08-30 L3 programming layer (loader) 
@@ -495,6 +727,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
+<<<<<<< HEAD
 \c@section@level=\count427
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
@@ -504,14 +737,29 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@pagecounter=\count429
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+=======
+\c@section@level=\count412
+)
+\@linkdim=\dimen172
+\Hy@linkcounter=\count413
+\Hy@pagecounter=\count414
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
+<<<<<<< HEAD
 \Hy@SavedSpaceFactor=\count430
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+=======
+\Hy@SavedSpaceFactor=\count415
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -522,15 +770,24 @@ Package hyperref Info: Hyper index ON on input line 4165.
 Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+<<<<<<< HEAD
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count431
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen174
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+=======
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count416
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen173
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
+<<<<<<< HEAD
 \Fld@menulength=\count432
 \Field@Width=\dimen175
 \Fld@charsize=\dimen176
@@ -548,6 +805,25 @@ package with kernel methods
 \Hy@abspage=\count433
 \c@Item=\count434
 \c@Hfootnote=\count435
+=======
+\Fld@menulength=\count417
+\Field@Width=\dimen174
+\Fld@charsize=\dimen175
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring ON on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count418
+\c@Item=\count419
+\c@Hfootnote=\count420
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -556,9 +832,15 @@ File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
+<<<<<<< HEAD
 \Fld@listcount=\count436
 \c@bookmark@seq@number=\count437
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+=======
+\Fld@listcount=\count421
+\c@bookmark@seq@number=\count422
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -567,6 +849,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip87
 )
+<<<<<<< HEAD
 \@quotelevel=\count438
 \@quotereset=\count439
  (01_report.aux)
@@ -602,6 +885,43 @@ LaTeX Font Info:    ... okay on input line 63.
 \MPscratchDim=\dimen178
 \MPnumerator=\count444
 \makeMPintoPDFobject=\count445
+=======
+\@quotelevel=\count423
+\@quotereset=\count424
+ (01_report.aux)
+\openout1 = `01_report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count425
+\scratchdimen=\dimen176
+\scratchbox=\box56
+\nofMPsegments=\count426
+\nofMParguments=\count427
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count428
+\MPscratchDim=\dimen177
+\MPnumerator=\count429
+\makeMPintoPDFobject=\count430
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 \everyMPtoPDFconversion=\toks29
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -646,33 +966,37 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 63.
-Package microtype Info: Applying patch `toc' on input line 63.
-Package microtype Info: Applying patch `eqnum' on input line 63.
-Package microtype Info: Applying patch `footnote' on input line 63.
-Package microtype Info: Applying patch `verbatim' on input line 63.
+LaTeX Info: Redefining \microtypecontext on input line 64.
+Package microtype Info: Applying patch `toc' on input line 64.
+Package microtype Info: Applying patch `eqnum' on input line 64.
+Package microtype Info: Applying patch `footnote' on input line 64.
+Package microtype Info: Applying patch `verbatim' on input line 64.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 63.
+LaTeX Info: Redefining \showhyphens on input line 64.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
+<<<<<<< HEAD
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
 File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+=======
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
+<<<<<<< HEAD
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-apa.lbx
@@ -686,6 +1010,8 @@ Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 ))))
+=======
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -694,6 +1020,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '01_report.bbl' found.
  (01_report.bbl)
+<<<<<<< HEAD
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
@@ -704,6 +1031,18 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 63.
+=======
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 64.
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
  (01_report.out) (01_report.out)
 \@outlinefile=\write4
 \openout4 = `01_report.out'.
@@ -711,7 +1050,7 @@ Package hyperref Info: Link coloring ON on input line 63.
 <logo.png, id=47, 408.654pt x 65.919pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 66.
+Package pdftex.def Info: logo.png  used on input line 67.
 (pdftex.def)             Requested size: 407.66833pt x 65.76392pt.
 
 
@@ -730,7 +1069,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.89 \newpage
+=======
+l.79 \newpage
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
               [1] (01_report.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -757,6 +1100,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
+<<<<<<< HEAD
 <Cauliflower.jpg, id=81, 1204.5pt x 573.14125pt>
 File: Cauliflower.jpg Graphic file (type jpg)
 <use Cauliflower.jpg>
@@ -772,6 +1116,28 @@ File: MAndelbrot_close.jpg Graphic file (type jpg)
 <use MAndelbrot_close.jpg>
 Package pdftex.def Info: MAndelbrot_close.jpg  used on input line 118.
 (pdftex.def)             Requested size: 203.83417pt x 152.85585pt.
+=======
+<Cauliflower1.jpg, id=81, 1606.0pt x 1204.5pt>
+File: Cauliflower1.jpg Graphic file (type jpg)
+<use Cauliflower1.jpg>
+Package pdftex.def Info: Cauliflower1.jpg  used on input line 121.
+(pdftex.def)             Requested size: 215.15906pt x 161.36908pt.
+<Cauliflower.jpg, id=82, 147.4308pt x 110.814pt>
+File: Cauliflower.jpg Graphic file (type jpg)
+<use Cauliflower.jpg>
+Package pdftex.def Info: Cauliflower.jpg  used on input line 121.
+(pdftex.def)             Requested size: 215.15906pt x 161.72957pt.
+<Mandelbrot_far.jpg, id=83, 1284.8pt x 1027.84pt>
+File: Mandelbrot_far.jpg Graphic file (type jpg)
+<use Mandelbrot_far.jpg>
+Package pdftex.def Info: Mandelbrot_far.jpg  used on input line 121.
+(pdftex.def)             Requested size: 202.25003pt x 161.79155pt.
+<Mandelbrot_close.jpg, id=84, 2569.6pt x 1927.2pt>
+File: Mandelbrot_close.jpg Graphic file (type jpg)
+<use Mandelbrot_close.jpg>
+Package pdftex.def Info: Mandelbrot_close.jpg  used on input line 121.
+(pdftex.def)             Requested size: 202.25003pt x 151.67958pt.
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 
 
 
@@ -781,7 +1147,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3 <./Cauliflower.jpg> <./Mandelbrot_far.jpg> <./MAndelbrot_close.jpg>]
+[3 <./Cauliflower1.jpg> <./Cauliflower.jpg> <./Mandelbrot_far.jpg> <./Mandelbrot_close.jpg>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -790,18 +1156,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< HEAD
 [4]
 <Lab_instruments.jpg, id=101, 4111.36pt x 3083.52pt>
+=======
+[4{C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<Lab_instruments.jpg, id=103, 4111.36pt x 3083.52pt>
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 File: Lab_instruments.jpg Graphic file (type jpg)
 <use Lab_instruments.jpg>
 Package pdftex.def Info: Lab_instruments.jpg  used on input line 175.
 (pdftex.def)             Requested size: 249.13371pt x 186.8382pt.
-<square_measure.png, id=103, 191.5155pt x 190.7928pt>
+<square_measure.png, id=105, 191.5155pt x 190.7928pt>
 File: square_measure.png Graphic file (type png)
 <use square_measure.png>
 Package pdftex.def Info: square_measure.png  used on input line 184.
 (pdftex.def)             Requested size: 158.54152pt x 157.9533pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Tin_foil_balls.jpg, id=108, 4111.36pt x 3083.52pt>
+File: Tin_foil_balls.jpg Graphic file (type jpg)
+<use Tin_foil_balls.jpg>
+Package pdftex.def Info: Tin_foil_balls.jpg  used on input line 195.
+(pdftex.def)             Requested size: 249.13371pt x 186.8382pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -815,12 +1194,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./Lab_instruments.jpg>]
+<<<<<<< HEAD
 <Tin_foil_balls.jpg, id=112, 4111.36pt x 3083.52pt>
 File: Tin_foil_balls.jpg Graphic file (type jpg)
 <use Tin_foil_balls.jpg>
 Package pdftex.def Info: Tin_foil_balls.jpg  used on input line 195.
 (pdftex.def)             Requested size: 249.13371pt x 186.8382pt.
 
+=======
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -839,7 +1221,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-<mass_vs_length.png, id=133, 507.3354pt x 350.5095pt>
+<mass_vs_length.png, id=136, 507.3354pt x 350.5095pt>
 File: mass_vs_length.png Graphic file (type png)
 <use mass_vs_length.png>
 Package pdftex.def Info: mass_vs_length.png  used on input line 292.
@@ -862,7 +1244,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<ln_mass_vs_ln_length.png, id=143, 507.47993pt x 332.00838pt>
+<ln_mass_vs_ln_length.png, id=147, 507.47993pt x 332.00838pt>
 File: ln_mass_vs_ln_length.png Graphic file (type png)
 <use ln_mass_vs_ln_length.png>
 Package pdftex.def Info: ln_mass_vs_ln_length.png  used on input line 313.
@@ -881,7 +1263,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./mass_vs_length.png>]
-<mass_vs_diameter.png, id=153, 507.3354pt x 350.5095pt>
+<mass_vs_diameter.png, id=157, 507.3354pt x 350.5095pt>
 File: mass_vs_diameter.png Graphic file (type png)
 <use mass_vs_diameter.png>
 Package pdftex.def Info: mass_vs_diameter.png  used on input line 326.
@@ -900,7 +1282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./ln_mass_vs_ln_length.png>]
-<ln_mass_vs_ln_diameter.png, id=161, 507.47993pt x 332.00838pt>
+<ln_mass_vs_ln_diameter.png, id=165, 507.47993pt x 332.00838pt>
 File: ln_mass_vs_ln_diameter.png Graphic file (type png)
 <use ln_mass_vs_ln_diameter.png>
 Package pdftex.def Info: ln_mass_vs_ln_diameter.png  used on input line 335.
@@ -920,10 +1302,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11 <./mass_vs_diameter.png> <./ln_mass_vs_ln_diameter.png>]
 
+<<<<<<< HEAD
 LaTeX Warning: Empty bibliography on input line 355.
 
 
+=======
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 
+[12]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -931,7 +1322,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12] (01_report.aux)
+[13] (01_report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -947,6 +1338,7 @@ Package logreq Info: Writing requests to '01_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  22107 strings out of 473899
  390387 string characters out of 5726500
  1348774 words of memory out of 5000000
@@ -960,4 +1352,19 @@ PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
  33424 words of extra memory for PDF output out of 35830 (max. 10000000)
+=======
+ 21618 strings out of 474486
+ 380894 string characters out of 5743755
+ 1940542 words of memory out of 5000000
+ 43508 multiletter control sequences out of 15000+600000
+ 570618 words of font info for 130 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,81p,940b,1155s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on 01_report.pdf (14 pages, 7796343 bytes).
+PDF statistics:
+ 248 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 35477 words of extra memory for PDF output out of 35830 (max. 10000000)
+>>>>>>> 99a4d6b11272d1214ebac3dd02b634354477eb71
 
