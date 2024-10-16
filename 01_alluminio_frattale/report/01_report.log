@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.3)  16 OCT 2024 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.3)  16 OCT 2024 13:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -730,7 +730,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \newpage
+l.89 \newpage
               [1] (01_report.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -760,17 +760,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Cauliflower.jpg, id=81, 1204.5pt x 573.14125pt>
 File: Cauliflower.jpg Graphic file (type jpg)
 <use Cauliflower.jpg>
-Package pdftex.def Info: Cauliflower.jpg  used on input line 110.
+Package pdftex.def Info: Cauliflower.jpg  used on input line 108.
 (pdftex.def)             Requested size: 362.37569pt x 172.43344pt.
 <Mandelbrot_far.jpg, id=82, 1284.8pt x 1027.84pt>
 File: Mandelbrot_far.jpg Graphic file (type jpg)
 <use Mandelbrot_far.jpg>
-Package pdftex.def Info: Mandelbrot_far.jpg  used on input line 119.
+Package pdftex.def Info: Mandelbrot_far.jpg  used on input line 117.
 (pdftex.def)             Requested size: 203.83417pt x 163.06192pt.
 <MAndelbrot_close.jpg, id=83, 2569.6pt x 1927.2pt>
 File: MAndelbrot_close.jpg Graphic file (type jpg)
 <use MAndelbrot_close.jpg>
-Package pdftex.def Info: MAndelbrot_close.jpg  used on input line 120.
+Package pdftex.def Info: MAndelbrot_close.jpg  used on input line 118.
 (pdftex.def)             Requested size: 203.83417pt x 152.85585pt.
 
 
@@ -794,12 +794,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Lab_instruments.jpg, id=101, 4111.36pt x 3083.52pt>
 File: Lab_instruments.jpg Graphic file (type jpg)
 <use Lab_instruments.jpg>
-Package pdftex.def Info: Lab_instruments.jpg  used on input line 177.
+Package pdftex.def Info: Lab_instruments.jpg  used on input line 176.
 (pdftex.def)             Requested size: 249.13371pt x 186.8382pt.
 <square_measure.png, id=103, 191.5155pt x 190.7928pt>
 File: square_measure.png Graphic file (type png)
 <use square_measure.png>
-Package pdftex.def Info: square_measure.png  used on input line 186.
+Package pdftex.def Info: square_measure.png  used on input line 185.
 (pdftex.def)             Requested size: 158.54152pt x 157.9533pt.
 
 
@@ -818,7 +818,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Tin_foil_balls.jpg, id=112, 4111.36pt x 3083.52pt>
 File: Tin_foil_balls.jpg Graphic file (type jpg)
 <use Tin_foil_balls.jpg>
-Package pdftex.def Info: Tin_foil_balls.jpg  used on input line 197.
+Package pdftex.def Info: Tin_foil_balls.jpg  used on input line 196.
 (pdftex.def)             Requested size: 249.13371pt x 186.8382pt.
 
 
@@ -842,7 +842,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <mass_vs_length.png, id=133, 507.3354pt x 350.5095pt>
 File: mass_vs_length.png Graphic file (type png)
 <use mass_vs_length.png>
-Package pdftex.def Info: mass_vs_length.png  used on input line 294.
+Package pdftex.def Info: mass_vs_length.png  used on input line 293.
 (pdftex.def)             Requested size: 362.37569pt x 250.36638pt.
 
 
@@ -865,7 +865,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ln_mass_vs_ln_length.png, id=143, 507.47993pt x 332.00838pt>
 File: ln_mass_vs_ln_length.png Graphic file (type png)
 <use ln_mass_vs_ln_length.png>
-Package pdftex.def Info: ln_mass_vs_ln_length.png  used on input line 315.
+Package pdftex.def Info: ln_mass_vs_ln_length.png  used on input line 314.
 (pdftex.def)             Requested size: 362.37569pt x 237.08022pt.
 
 
@@ -884,7 +884,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <mass_vs_diameter.png, id=153, 507.3354pt x 350.5095pt>
 File: mass_vs_diameter.png Graphic file (type png)
 <use mass_vs_diameter.png>
-Package pdftex.def Info: mass_vs_diameter.png  used on input line 328.
+Package pdftex.def Info: mass_vs_diameter.png  used on input line 327.
 (pdftex.def)             Requested size: 362.37569pt x 250.36638pt.
 
 
@@ -903,7 +903,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <ln_mass_vs_ln_diameter.png, id=161, 507.47993pt x 332.00838pt>
 File: ln_mass_vs_ln_diameter.png Graphic file (type png)
 <use ln_mass_vs_ln_diameter.png>
-Package pdftex.def Info: ln_mass_vs_ln_diameter.png  used on input line 337.
+Package pdftex.def Info: ln_mass_vs_ln_diameter.png  used on input line 336.
 (pdftex.def)             Requested size: 362.37569pt x 237.08022pt.
 
 
@@ -916,7 +916,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11 <./mass_vs_diameter.png> <./ln_mass_vs_ln_diameter.png>]
 
-LaTeX Warning: Empty bibliography on input line 351.
+LaTeX Warning: Empty bibliography on input line 359.
 
 
 
@@ -939,17 +939,17 @@ Package logreq Info: Writing requests to '01_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22102 strings out of 473899
- 390326 string characters out of 5726500
- 1348774 words of memory out of 5000000
- 44582 multiletter control sequences out of 15000+600000
+ 22103 strings out of 473899
+ 390357 string characters out of 5726500
+ 1348826 words of memory out of 5000000
+ 44583 multiletter control sequences out of 15000+600000
  569955 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,12n,81p,881b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lucac\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on 01_report.pdf (13 pages, 7660367 bytes).
+Output written on 01_report.pdf (13 pages, 7662514 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
+ 244 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
  33424 words of extra memory for PDF output out of 35830 (max. 10000000)
 
