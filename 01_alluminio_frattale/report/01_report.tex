@@ -350,6 +350,32 @@ Finally, we compare the previous results with the ones obtained from the Least S
 
 As before, we use the Least Square method to compute the parameters of the power law we are interested in. In Fig. (\ref{fig:ln_mass_vs_ln_diameter}), we show the linear law that best fits the data, whose parameters are $\ln(k) = -6.60 \pm 0.22$ and $\alpha = 2.16 \pm  0.08$. These results are closer to the ones expected and we consider them more reliable than the ones obtained from the previous method.
  
+\subsection{Further analysis and observations}
+
+We now make some comments about the results obtained in the previous section. In particular, 
+since the parameters obtained from the power law and the linear regression for the second part of the 
+experiments were not as satisfactory as expected, we decided to analyze the residuals of the experimental 
+data and the data predicted by the models (power law and linear regression). The results are shown in 
+Fig. (\ref{fig:residuals}).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.9\textwidth]{residuals.png}
+    \caption{Residuals of the experimental data and the data predicted by the models.}
+    \label{fig:residuals}
+\end{figure}
+ 
+As we can see from these plots, in some cases there are some residuals that are not randomly distributed 
+around the zero line (as we expected them to be). We also observed that these residuals correspond in general 
+to the initial and final data points, which interestingly are the ones with the highest uncertainty. We address 
+this issue by excluding these data points from the analysis and repeating the calculations. The results obtained, 
+for our surprise, were noticably better than the previous ones. For instance, for the second part of the experiment
+we obtained a value of $\alpha = 2.47 \pm 0.07$ for the power law and using the linear regression the model provided 
+a value of $\alpha = 2.38 \pm 0.08$. Since for the first part of the experiment our results were in agreement with the
+expected values, we decided to keep the initial data points during the analysis but as an interesting result, we 
+observed that if we not include the data from the smallest aluminum square, the linear regression gives a value of 
+alpha of $2.02 \pm 0.01$, which is closer to the expected value of $2$ than the one we obtained in the last section.
+ 
 % Conclusion 
 \section{Conclusion}\label{sec:conclusion}
 The purpose of this experiment is to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
@@ -360,7 +386,11 @@ All the collected data in shown in tables (\ref{tab:squares}) and (\ref{tab:ball
 Next, we analyzed the graphs (\ref{fig:mass_vs_length}), (\ref{fig:ln_mass_vs_ln_length}), (\ref{fig:mass_vs_diameter}), (\ref{fig:ln_mass_vs_ln_diameter}) 
 initially applying a power law, followed by linear regression after linearizing Equation (\ref{eq:gen_fractal}).
 Afterward, is it possible to compare te results obtained with the power law with those obtained from the linear regression.
+
+
+
 % Appendix 
+\newpage
 \section{Appendix}
 Include supplementary information such as raw data, calculations, or additional graphs that are too detailed for the main report but are still relevant.
 
