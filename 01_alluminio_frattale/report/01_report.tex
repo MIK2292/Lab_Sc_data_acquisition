@@ -8,6 +8,7 @@
 \usepackage{subcaption}
 \usepackage{setspace} 
 \usepackage[bottom]{footmisc}
+\usepackage{adjustbox}
 \usepackage{placeins}
 \usepackage[nopatch=item]{microtype}
 \usepackage{enumitem} % for customizing lists
@@ -74,8 +75,7 @@
 
 % Keywords
 \section*{Keywords}
-Aluminum Foil, Dimension, Dimensionality, Fractal, Fractal Object
-
+fractal, felf-similarity, fractal dimension, Aluminum foil, spheres, curve, fitting, model, regression, power law, linearization, least squares method.
 \newpage
 
 % Table of Contents
@@ -84,11 +84,11 @@ Aluminum Foil, Dimension, Dimensionality, Fractal, Fractal Object
 
 % Introduction
 \section{Introduction}
-\par In the following experiment our aim is to demonstrate the fractal nature 
+\par The following experiment aims to demonstrate the fractal nature 
 of a very simple physical object: a small tin foil ball. 
  
 \par Fractal objects are objects which are characterised of the self-similarity 
-property, in simpler words, they look the same when observed at different scales.
+property; in simpler words, they look the same when observed at different scales.
 One of the most famous fractal object is the Mandelbrot set, but we can find these 
 objects also in nature, such as in the structure of a Romanesco Cauliflower, or 
 from a physical point of view; polymers can be regarded as fractals as well \cite{rubinstein-2003}.
@@ -100,7 +100,7 @@ from a physical point of view; polymers can be regarded as fractals as well \cit
             \centering
             
             % Cauliflower images
-            \begin{subfigure}[b]{0.50\textwidth}
+            \begin{subfigure}[b]{0.49\textwidth}
                 \centering
                 \includegraphics[width=\textwidth]{Cauliflower1.jpg}
                 \includegraphics[width=\textwidth]{Cauliflower.jpg}
@@ -109,7 +109,7 @@ from a physical point of view; polymers can be regarded as fractals as well \cit
             \end{subfigure} 
             \hfill
             % Mandelbrot images
-            \begin{subfigure}[b]{0.47\textwidth}
+            \begin{subfigure}[b]{0.49\textwidth}
                 \centering
                 \includegraphics[width=\textwidth]{Mandelbrot_far.jpg}
                 \includegraphics[width=\textwidth]{Mandelbrot_close.jpg}
@@ -121,12 +121,12 @@ from a physical point of view; polymers can be regarded as fractals as well \cit
     }
 \end{figure}
 
-\par We can observe the same level of complexity of the images as seen from far away 
-and up close in figure (\ref{fig:Cauliflower}) and figure (\ref{fig:Mandelbrot}) above.
+\par We observe the same level of complexity in the images, as seen from far away 
+and up close as shown in Fig. (\ref{fig:Cauliflower}) and Fig. (\ref{fig:Mandelbrot}) above.
 
-\par From a mathematical point of view, define a fractal from its changes 
-in terms of mass and volume. We start from an object that we know: a square sheet 
-of paper. In this case we will have the mass distributed following the area of 
+\par From a mathematical point of view, we define a fractal from its changes 
+in terms of mass and volume. For example, we start from an object that we know: 
+a square sheet of paper. In this case we will have the mass distributed following the area of 
 the sheet, furthermore the mass grows as the square of the typical lenght of the 
 sheet (the side of the square which we will call $r$). The formula will be the 
 following 
@@ -138,18 +138,17 @@ We can repeat the same reasoning with a metal cube, obtaining ultimately the for
 \[ M = D r^3 \]
 where $D$ is the volume density of the metal used. It has of course $3$ dimensions.
 
-\par Now let's apply this method to our experiment. Since the physical data which we 
-will obtain will be the mass and the linear dimension of the system 
+\par Now, let's follow the same reasoning in our experiment. Since the physical data we 
+collect in the laboratory are the mass and the linear dimension of the system 
 (the tin foil ball), the unknown parameters will be the general density $k$ and 
-the dimensionality exponent $\alpha$ in the formula
+the dimensionality exponent $\alpha$, which is the fractal dimension of the system.
 \begin{equation} 
     M_{\text{experimental}} = k r_{\text{experimental}}^{\alpha}
     \label{eq:gen_fractal}
 \end{equation}   
 
-To sum up, in the following experiment we will see that also a rolled up ball of 
-tin foil can be considered as a fractal.
-
+We anticipate that, in the following experiment, we show how a rolled up ball of 
+tin foil can be considered a fractal object, and our main goal will be to determine its fractal dimension.
 
 % Materials and Methods (Tools and Procedure)
 \section{Materials and Methods}
@@ -166,9 +165,9 @@ tin foil can be considered as a fractal.
 \subsection{Experimental Procedure}
 We begin by checking that we have everything at our disposal. In order to do so, we set up the laboratory as shown in Fig. (\ref{fig:lab_instr}).
 Then we start off from the aluminum foil and we cut, using the scissors, a few square sheets of tin foil. 
-We have to be careful in cutting squares as perfect as possible in order to reduce the error in 
+We had to be careful in cutting squares as perfect as possible in order to reduce the error in 
 the measurementes; to do so, we make use of both the ruler and the square. We cut squares of linear 
-dimensions of $2 mm$, $5 mm$, $8 mm$, $11 mm$, $14 mm$, $17 mm$, $20 mm$, $23 mm$, $26 mm$ and $29 mm$.
+dimensions of $2$ mm, $5$ mm, $8$ mm, $11$ mm, $14$ mm, $17$ mm, $20$ mm, $23$ mm, $26$ mm and $29$ mm.
 
 \begin{figure}[h]
     \centering
@@ -182,18 +181,26 @@ lenghts of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we 
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.35\textwidth]{square_measure.png}
-    \caption{All the direction in which we measured the lenght of the side of the aluminum foil squares}
+    \caption{All the direction in which we measured the lenght of the side of the aluminum foil squares} 
     \label{fig:sq_measure}
 \end{figure}
 
 Now, we roll up every tin foil square into a sphere trying to have each ball at the same density as shown in Fig. (\ref{fig:tf_balls}). 
 Since we do this operation by hand, we can only have an idea of its density. This is the step in the 
-procedure which, according to us, correspond to the biggest source of error in the experiment.
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width = 0.55\textwidth]{Tin_foil_balls.jpg}
-    \caption{Some of the balls that me made from the tin foil, the caliber, some squares of tin foil in the background}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Tin_foil_balls.png}
+    \end{minipage}%
+    \hspace{0.05\textwidth} % Adds space between the images
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Tin_foil_balls.jpg}
+    \end{minipage}
+    
+    \caption{Some of the tin foil balls we made, the caliber, and some squares of tin foil in the background.}
     \label{fig:tf_balls}
 \end{figure}
 
@@ -338,12 +345,48 @@ Finally, we compare the previous results with the ones obtained from the Least S
 \end{figure}
 
 As before, we use the Least Square method to compute the parameters of the power law we are interested in. In Fig. (\ref{fig:ln_mass_vs_ln_diameter}), we show the linear law that best fits the data, whose parameters are $\ln(k) = -6.60 \pm 0.22$ and $\alpha = 2.16 \pm  0.08$. These results are closer to the ones expected and we consider them more reliable than the ones obtained from the previous method.
+ 
+\subsection{Further analysis and observations}
 
-% Conclusion
+We now make some comments about the results obtained in the previous section. In particular, 
+since the parameters obtained from the power law and the linear regression for the second part of the 
+experiments were not as satisfactory as expected, we decided to analyze the residuals of the experimental 
+data and the data predicted by the models (power law and linear regression). The results are shown in 
+Fig. (\ref{fig:residuals}).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = 0.9\textwidth]{residuals.png}
+    \caption{Residuals of the experimental data and the data predicted by the models.}
+    \label{fig:residuals}
+\end{figure}
+ 
+As we can see from these plots, in some cases there are some residuals that are not randomly distributed 
+around the zero line (as we expected them to be). We also observed that these residuals correspond in general 
+to the initial and final data points, which interestingly are the ones with the highest uncertainty. We address 
+this issue by excluding these data points from the analysis and repeating the calculations. The results obtained, 
+for our surprise, were noticably better than the previous ones. For instance, for the second part of the experiment
+we obtained a value of $\alpha = 2.47 \pm 0.07$ for the power law and using the linear regression the model provided 
+a value of $\alpha = 2.38 \pm 0.08$. Since for the first part of the experiment our results were in agreement with the
+expected values, we decided to keep the initial data points during the analysis but as an interesting result, we 
+observed that if we not include the data from the smallest aluminum square, the linear regression gives a value of 
+alpha of $2.02 \pm 0.01$, which is closer to the expected value of $2$ than the one we obtained in the last section.
+ 
+% Conclusion 
 \section{Conclusion}\label{sec:conclusion}
-Summarize the main findings, confirm or refute the hypothesis, and suggest future research directions or practical applications.
+The purpose of this experiment is to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
+which are neither completely solid nor completely hollow, falls between 2 and 3.
+Following the procedure outlined in (\ref{subsec:Experimental procedure}),
+we measured the sides of the alluminum squares and then crumpled them into alluminum spheres.
+All the collected data in shown in tables (\ref{tab:squares}) and (\ref{tab:balls}). 
+Next, we analyzed the graphs (\ref{fig:mass_vs_length}), (\ref{fig:ln_mass_vs_ln_length}), (\ref{fig:mass_vs_diameter}), (\ref{fig:ln_mass_vs_ln_diameter}) 
+initially applying a power law, followed by linear regression after linearizing Equation (\ref{eq:gen_fractal}).
+Afterward, is it possible to compare te results obtained with the power law with those obtained from the linear regression.
 
-% Appendix
+
+
+% Appendix 
+\newpage
 \section{Appendix}
 Include supplementary information such as raw data, calculations, or additional graphs that are too detailed for the main report but are still relevant.
 
