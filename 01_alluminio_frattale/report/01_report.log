@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  18 OCT 2024 00:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  18 OCT 2024 23:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -716,7 +716,7 @@ Package hyperref Info: Link coloring ON on input line 65.
 \@outlinefile=\write4
 \openout4 = `01_report.out'.
 
-<logo.png, id=51, 408.654pt x 65.919pt>
+<logo.png, id=55, 408.654pt x 65.919pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 68.
@@ -761,22 +761,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-<Cauliflower1.jpg, id=86, 1606.0pt x 1204.5pt>
+<Cauliflower1.jpg, id=91, 1606.0pt x 1204.5pt>
 File: Cauliflower1.jpg Graphic file (type jpg)
 <use Cauliflower1.jpg>
 Package pdftex.def Info: Cauliflower1.jpg  used on input line 121.
 (pdftex.def)             Requested size: 210.85823pt x 158.13434pt.
-<Cauliflower.jpg, id=87, 147.4308pt x 110.814pt>
+<Cauliflower.jpg, id=92, 147.4308pt x 110.814pt>
 File: Cauliflower.jpg Graphic file (type jpg)
 <use Cauliflower.jpg>
 Package pdftex.def Info: Cauliflower.jpg  used on input line 121.
 (pdftex.def)             Requested size: 210.85823pt x 158.4966pt.
-<Mandelbrot_far.jpg, id=88, 1284.8pt x 1027.84pt>
+<Mandelbrot_far.jpg, id=93, 1284.8pt x 1027.84pt>
 File: Mandelbrot_far.jpg Graphic file (type jpg)
 <use Mandelbrot_far.jpg>
 Package pdftex.def Info: Mandelbrot_far.jpg  used on input line 121.
 (pdftex.def)             Requested size: 210.85823pt x 168.67664pt.
-<Mandelbrot_close.jpg, id=89, 2569.6pt x 1927.2pt>
+<Mandelbrot_close.jpg, id=94, 2569.6pt x 1927.2pt>
 File: Mandelbrot_close.jpg Graphic file (type jpg)
 <use Mandelbrot_close.jpg>
 Package pdftex.def Info: Mandelbrot_close.jpg  used on input line 121.
@@ -798,12 +798,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4{C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<Lab_instruments.jpg, id=108, 4111.36pt x 3083.52pt>
+<Lab_instruments.jpg, id=113, 4111.36pt x 3083.52pt>
 File: Lab_instruments.jpg Graphic file (type jpg)
 <use Lab_instruments.jpg>
 Package pdftex.def Info: Lab_instruments.jpg  used on input line 174.
 (pdftex.def)             Requested size: 249.13371pt x 186.8382pt.
-<square_measure.png, id=110, 191.5155pt x 190.7928pt>
+<square_measure.png, id=115, 191.5155pt x 190.7928pt>
 File: square_measure.png Graphic file (type png)
 <use square_measure.png>
 Package pdftex.def Info: square_measure.png  used on input line 183.
@@ -820,12 +820,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./Lab_instruments.jpg>]
-<Tin_foil_balls.png, id=119, 4047.12pt x 3035.34pt>
+<Tin_foil_balls.png, id=124, 4047.12pt x 3035.34pt>
 File: Tin_foil_balls.png Graphic file (type png)
 <use Tin_foil_balls.png>
 Package pdftex.def Info: Tin_foil_balls.png  used on input line 195.
 (pdftex.def)             Requested size: 203.83417pt x 152.84114pt.
-<Tin_foil_balls.jpg, id=120, 4111.36pt x 3083.52pt>
+<Tin_foil_balls.jpg, id=125, 4111.36pt x 3083.52pt>
 File: Tin_foil_balls.jpg Graphic file (type jpg)
 <use Tin_foil_balls.jpg>
 Package pdftex.def Info: Tin_foil_balls.jpg  used on input line 200.
@@ -847,10 +847,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-<mass_vs_length.png, id=142, 507.3354pt x 350.5095pt>
+<mass_vs_length.png, id=147, 507.3354pt x 350.5095pt>
 File: mass_vs_length.png Graphic file (type png)
 <use mass_vs_length.png>
-Package pdftex.def Info: mass_vs_length.png  used on input line 299.
+Package pdftex.def Info: mass_vs_length.png  used on input line 302.
 (pdftex.def)             Requested size: 362.37569pt x 250.36638pt.
 
 
@@ -868,14 +868,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<ln_mass_vs_ln_length.png, id=153, 507.47993pt x 332.00838pt>
+<ln_mass_vs_ln_length.png, id=158, 507.47993pt x 332.00838pt>
 File: ln_mass_vs_ln_length.png Graphic file (type png)
 <use ln_mass_vs_ln_length.png>
-Package pdftex.def Info: ln_mass_vs_ln_length.png  used on input line 320.
+Package pdftex.def Info: ln_mass_vs_ln_length.png  used on input line 323.
 (pdftex.def)             Requested size: 362.37569pt x 237.08022pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -885,11 +882,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./mass_vs_length.png>]
-<mass_vs_diameter.png, id=163, 507.3354pt x 350.5095pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <./ln_mass_vs_ln_length.png>]
+<mass_vs_diameter.png, id=174, 507.3354pt x 350.5095pt>
 File: mass_vs_diameter.png Graphic file (type png)
 <use mass_vs_diameter.png>
-Package pdftex.def Info: mass_vs_diameter.png  used on input line 333.
+Package pdftex.def Info: mass_vs_diameter.png  used on input line 348.
 (pdftex.def)             Requested size: 362.37569pt x 250.36638pt.
+<ln_mass_vs_ln_diameter.png, id=176, 507.47993pt x 332.00838pt>
+File: ln_mass_vs_ln_diameter.png Graphic file (type png)
+<use ln_mass_vs_ln_diameter.png>
+Package pdftex.def Info: ln_mass_vs_ln_diameter.png  used on input line 357.
+(pdftex.def)             Requested size: 362.37569pt x 237.08022pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -901,37 +911,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./ln_mass_vs_ln_length.png>]
-<ln_mass_vs_ln_diameter.png, id=171, 507.47993pt x 332.00838pt>
-File: ln_mass_vs_ln_diameter.png Graphic file (type png)
-<use ln_mass_vs_ln_diameter.png>
-Package pdftex.def Info: ln_mass_vs_ln_diameter.png  used on input line 342.
-(pdftex.def)             Requested size: 362.37569pt x 237.08022pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11 <./mass_vs_diameter.png> <./ln_mass_vs_ln_diameter.png>]
-<residuals.png, id=181, 1065.9825pt x 704.6325pt>
+[11 <./mass_vs_diameter.png>]
+<residuals.png, id=186, 1065.9825pt x 704.6325pt>
 File: residuals.png Graphic file (type png)
 <use residuals.png>
-Package pdftex.def Info: residuals.png  used on input line 359.
+Package pdftex.def Info: residuals.png  used on input line 382.
 (pdftex.def)             Requested size: 407.66833pt x 269.47267pt.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12 <./residuals.png>]
-
-LaTeX Warning: Reference `subsec:Experimental procedure' on page 13 undefined on input line 379.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -940,7 +928,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[12 <./ln_mass_vs_ln_diameter.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `subsec:Experimental procedure' on page 13 undefined on input line 423.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./residuals.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -966,23 +968,23 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `01_report.out' has not changed.
-(rerunfilecheck)             Checksum: 704AB0514BBA5A14C14DA4FFE36A8276;1894.
+(rerunfilecheck)             Checksum: 3673CE3A8C856F8235D3A57BEE23F0F8;2186.
 Package logreq Info: Writing requests to '01_report.run.xml'.
 \openout1 = `01_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22753 strings out of 474486
- 401320 string characters out of 5743755
- 1940542 words of memory out of 5000000
- 44597 multiletter control sequences out of 15000+600000
- 570814 words of font info for 134 fonts, out of 8000000 for 9000
+ 22752 strings out of 474486
+ 401408 string characters out of 5743755
+ 1941542 words of memory out of 5000000
+ 44601 multiletter control sequences out of 15000+600000
+ 570617 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,81p,940b,1168s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,81p,890b,1168s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on 01_report.pdf (16 pages, 18508455 bytes).
+Output written on 01_report.pdf (16 pages, 18511706 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 35495 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 35503 words of extra memory for PDF output out of 35830 (max. 10000000)
 

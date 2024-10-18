@@ -221,15 +221,16 @@ in Table (\ref{tab:balls}).
     \begin{tabular}{|c|c|c|c|}
     \hline
         \textbf{Square (cm)} & \( \overline{L} \pm \Delta L \) (cm) & \( \overline{m} \pm \Delta m \) (g) \\ \hline 
-        \textbf{29x29} & 29.02 \(\pm\) 0.11 & 2.80 \(\pm\) 0.012 \\ \hline
-        \textbf{26x26} & 26.02 \(\pm\) 0.13 & 2.28 \(\pm\) 0.010 \\ \hline
-        \textbf{23x23} & 23.00 \(\pm\) 0.10 & 1.77 \(\pm\) 0.010 \\ \hline 
-        \textbf{20x20} & 20.02 \(\pm\) 0.11 & 1.34 \(\pm\) 0.010 \\ \hline
-        \textbf{17x17} & 17.02 \(\pm\) 0.11 & 0.97 \(\pm\) 0.010 \\ \hline
-        \textbf{14x14} & 14.00 \(\pm\) 0.12 & 0.66 \(\pm\) 0.010 \\ \hline
-        \textbf{11x11} & 11.00 \(\pm\) 0.10 & 0.40 \(\pm\) 0.010 \\ \hline
-        \textbf{8x8}   & 7.98  \(\pm\) 0.11 & 0.21 \(\pm\) 0.010 \\ \hline
-        \textbf{5x5}   & 5.00  \(\pm\) 0.10 & 0.08 \(\pm\) 0.010 \\ \hline
+        \textbf{29x29} & 29.02 \(\pm\) 0.11 & 2.80 \(\pm\) 0.01 \\ \hline
+        \textbf{26x26} & 26.02 \(\pm\) 0.13 & 2.28 \(\pm\) 0.01 \\ \hline
+        \textbf{23x23} & 23.00 \(\pm\) 0.10 & 1.77 \(\pm\) 0.01 \\ \hline 
+        \textbf{20x20} & 20.02 \(\pm\) 0.11 & 1.34 \(\pm\) 0.01 \\ \hline
+        \textbf{17x17} & 17.02 \(\pm\) 0.11 & 0.97 \(\pm\) 0.01 \\ \hline
+        \textbf{14x14} & 14.00 \(\pm\) 0.12 & 0.66 \(\pm\) 0.01 \\ \hline
+        \textbf{11x11} & 11.00 \(\pm\) 0.10 & 0.40 \(\pm\) 0.01 \\ \hline
+        \textbf{8x8}   & 7.98  \(\pm\) 0.11 & 0.21 \(\pm\) 0.01 \\ \hline
+        \textbf{5x5}   & 5.00  \(\pm\) 0.10 & 0.08 \(\pm\) 0.01 \\ \hline
+        \textbf{3x3}   & 3.00  \(\pm\) 0.10 & 0.02 \(\pm\) 0.01 \\ \hline
     \end{tabular}
     \caption{Measurements of Squares with Average Length and Mass with their respective uncertainties}
     \label{tab:squares}
@@ -290,6 +291,8 @@ We also compute the natural logarithm of the mean values of the mass, the diamet
 
 % Discussion and Analysis
 \section{Discussion and Analysis}
+
+\subsection{Aluminum Foil Squares}
 \par Once the data has been fully analysed, we can start by discussing the main results obtained from the experiment. 
 In particular, studying the plot shown in Fig. (\ref{fig:mass_vs_length}) which describes the relationship between the mass of the aluminum 
 squares and their linear dimension, we can easily observe (as expected) that the data is well represented by a power law.
@@ -301,13 +304,13 @@ squares and their linear dimension, we can easily observe (as expected) that the
     \label{fig:mass_vs_length}
 \end{figure}
 
-The power law obtained from the data is given by the the equation
-\begin{equation}\label{eq:mass_vs_length}
-    M = 0.0034 L^{1.9928}
-\end{equation}
-where $M$ corresponds to the mass of the aluminum squares and $L$ to its linear dimension. The exponent of the power law is very close to $2$, which is the expected 
-value for a two-dimensional object. This law was obtained numerically using the Python library \texttt{scipy} and the function \texttt{curve\_fit} (see Appendix ref). 
-This is a very satisfactory result supported by the associated $R^2$ parameter, which validates the fit of the data to the expected power law.  
+The power law obtained from the data is given by the the equation $M = 0.0034 L^{1.9928}$ where $M$ corresponds 
+to the mass of the aluminum squares and $L$ to its linear dimension. The exponent of the power law in equation (\ref{eq:gen_fractal}) is very close 
+to $2$, which is the expected value for a two-dimensional object; infact, we obtain a value of $\alpha = 1.99 \pm 0.01$ for the 
+exponent $\alpha$ and for the parameter $k$ the fit provided a value of $k = 0.0034 \pm 0.0001$. This law was obtained numerically 
+using the Python library \texttt{scipy} and the function \texttt{curve\_fit}, which uses a non-linear least squares method to compute these parameters. 
+This is a very satisfactory result supported by the associated $R^2$ parameter, which validates the fit of the 
+data to the expected power law.  
 
 In addition, we can consider a different approach to the problem by using the Least Squares method to compute both parameters of the power law. With this aim, we calculate 
 the natural logarithm of the general law $M = k L^{\alpha}$, obtaining 
@@ -322,11 +325,23 @@ which clearly describe a linear dependence between the natural logarithm of the 
     \label{fig:ln_mass_vs_ln_length}
 \end{figure}
 
-As expected, we obtained that the data is well represented by a linear function, whose parameters $\ln(k)$ and $\alpha$ correspond to the slope and the intercept of the line, respectively. The values obtained for these parameters are $\ln(k) = -6.07 \pm 0.11$ and $\alpha = 2.13 \pm  0.04$. These values are in perfect agreement with the ones obtained from the previous method, which validates the results obtained from the experiment.
+As expected, we obtained that the data is well represented by a linear function, whose parameters $\ln(k)$ and $\alpha$ correspond to the slope and the intercept of the line, respectively. 
+The values obtained for these parameters are 
+\begin{align}
+    \ln(k) &= -6.07 \pm 0.11 \implies k = 0.0020 \pm 0.0003,\\ \notag
+    \alpha &= 2.13 \pm  0.04.
+\end{align}
 
+These values are in perfect agreement with the ones obtained from the previous method, which validates the results obtained from the experiment.
+
+\subsection{Crumpled Aluminum Foil Balls}
 On the other hand, for the second part of the experiment, we follow the same procedure as before, and now we study the relationship between the mass 
 of the aluminum squares (now crumpled aluminum balls) and their linear dimension: the diameter. The plot shown in Fig. (\ref{fig:mass_vs_diameter}) 
-describes this relationship and, as expected, the data is well represented by a power law. However, the exponent we obtained in this case contradicts our predictions since we expected a value ranging from $2$ to $3$. This discrepancy could be due to the fact that the balls were not perfectly rolled up, which could have affected the measurements of the diameter and consequently the results obtained from the experiment. Even if the $R^2$ parameter is very close to $1$, we can not consider the results obtained from this part of the experiment as satisfactory. In order to improve these results, one could collect more data regarding the diameter of each ball by measuring them across several more different axis. 
+describes this relationship and, as expected, the data is well represented by a power law whose parameters are $\alpha = 1.97 \pm 0.14$ and $k = 0.003 \pm 0.001$. 
+However, the exponent we obtained in this case contradicts our predictions since we expected a value ranging from $2$ to $3$. This discrepancy could be due to the fact 
+that the balls were not perfectly rolled up, which could have affected the measurements of the diameter and consequently the results obtained from the experiment. Even if the $R^2$ parameter is very close to $1$, 
+we can not consider the results obtained from this part of the experiment as satisfactory. 
+We consider that, one possible way to improve these results, could be collecting more data regarding the diameter of each ball by measuring them across several more different axis. 
 
 \begin{figure}[h!]
     \centering
@@ -344,9 +359,17 @@ Finally, we compare the previous results with the ones obtained from the Least S
     \label{fig:ln_mass_vs_ln_diameter}
 \end{figure}
 
-As before, we use the Least Square method to compute the parameters of the power law we are interested in. In Fig. (\ref{fig:ln_mass_vs_ln_diameter}), we show the linear law that best fits the data, whose parameters are $\ln(k) = -6.60 \pm 0.22$ and $\alpha = 2.16 \pm  0.08$. These results are closer to the ones expected and we consider them more reliable than the ones obtained from the previous method.
+As before, we use the Least Square method to compute the parameters of the power law we are interested in.
+In Fig. (\ref{fig:ln_mass_vs_ln_diameter}), we show the linear law that best fits the data, whose parameters are 
+\begin{align}
+    \ln(k) &= -6.60 \pm 0.22 \implies k = 0.0010 \pm 0.0003,  \\ \notag
+    \alpha &= 2.16 \pm  0.08
+\end{align}
+
+
+These results are closer to the ones expected and we consider them more reliable than the ones obtained from the previous method.
  
-\subsection{Further analysis and observations}
+\subsection{Further analysis and observations}\label{sec:Further_analysis}
 
 We now make some comments about the results obtained in the previous section. In particular, 
 since the parameters obtained from the power law and the linear regression for the second part of the 
@@ -370,8 +393,29 @@ we obtained a value of $\alpha = 2.47 \pm 0.07$ for the power law and using the 
 a value of $\alpha = 2.38 \pm 0.08$. Since for the first part of the experiment our results were in agreement with the
 expected values, we decided to keep the initial data points during the analysis but as an interesting result, we 
 observed that if we not include the data from the smallest aluminum square, the linear regression gives a value of 
-alpha of $2.02 \pm 0.01$, which is closer to the expected value of $2$ than the one we obtained in the last section.
+alpha of $2.02 \pm 0.01$, which is closer to the expected value of $2$ than the one we obtained in the last section. 
+We finally gather all the results obtained in the following table, 
+
+\begin{table}[h!]
+    \centering
+    \caption{Summary of Results obtained from the experiment. The last two rows show the results described in section (\ref{sec:Further_analysis}).}
+    \label{tab:summary_results}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{Part} & \textbf{Method} & \textbf{$\alpha$} & \textbf{$k$}  \\ \hline
+    First Part & Power Law & $\alpha = 1.99 \pm 0.01$ & $k = 0.0034 \pm 0.0001$  \\ \hline
+    First Part & Linear Regression & $\alpha = 2.13 \pm 0.04$ & $k = 0.0020 \pm 0.0003$  \\ \hline
+    Second Part & Power Law & $\alpha = 1.97 \pm 0.14$ & $k = 0.003 \pm 0.001$ \\ \hline
+    Second Part & Linear Regression & $\alpha = 2.16 \pm 0.08$ & $k = 0.0010 \pm 0.0003$  \\ \hline
+    Further Results 2.1 & Power Law & $\alpha = 2.47 \pm 0.07$ & $k = 0.0034 \pm 0.0001$ \\ \hline
+    Further Results 2.2 & Linear Regression & $\alpha = 2.38 \pm 0.08$ & $k = 0.0005 \pm 0.0012$ \\ \hline
+    \end{tabular}
+    \end{table}
  
+
+
+
+
 % Conclusion 
 \section{Conclusion}\label{sec:conclusion}
 The purpose of this experiment is to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
@@ -383,12 +427,6 @@ Next, we analyzed the graphs (\ref{fig:mass_vs_length}), (\ref{fig:ln_mass_vs_ln
 initially applying a power law, followed by linear regression after linearizing Equation (\ref{eq:gen_fractal}).
 Afterward, is it possible to compare te results obtained with the power law with those obtained from the linear regression.
 
-
-
-% Appendix 
-\newpage
-\section{Appendix}
-Include supplementary information such as raw data, calculations, or additional graphs that are too detailed for the main report but are still relevant.
 
 % References
 \newpage
