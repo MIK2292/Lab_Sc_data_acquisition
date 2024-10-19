@@ -11,11 +11,10 @@ Nel dettaglio, le cartelle sono organizzate nel seguente modo:
   * "*raw data*", contiene i dati in formato excel, csv o comunque i dati presi in laboratorio
   * "*grafici*", contiene le immagini finali dei grafici che si andranno ad inserire nella relazione
   * "*foto*", contiene le foto scattate durante l'esecuzione dell'esperimento
-  * "*biblio*", contiene la bibliografia, i pdf che descrivono l'esperimento ed eventuali articoli/libri/documenti che approfondiscono l'esperienza
-  * saranno privi di sottocartella gli script per generare i grafici, il file .tex ed il file .pdf finale  
+  * "*biblio*", contiene la bibliografia, i pdf che descrivono l'esperimento ed eventuali articoli/libri/documenti che approfondiscono l'esperienza  
 
 Le cartelle sono
 1. [01_alluminio_frattale](https://github.com/MIK2292/Lab_Sc_data_acquisition/tree/main/01_alluminio_frattale) - Misura della dimensionalità frattale delle palline fatte di foglio di alluminio
-2. aaa
+2. [02_Signal_and_Noise]
 3. bbb
 
