@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber 01_report"] 1729368936.67225 "01_report.bcf" "01_report.bbl" "01_report" 1729368962.71437 0
-  "01_report.bcf" 1729368962 108628 4869a7fcb5a79672920e26a1ee7006ef "pdflatex"
+["biber 01_report"] 0 "01_report.bcf" "01_report.bbl" "01_report" 0 -1
+  "01_report.bcf" 1729369093 108628 4869a7fcb5a79672920e26a1ee7006ef "pdflatex"
   "Sci. Data_01.bib" 1729112295 316 268cba1cb0dddee01b0fb93eb76710b1 ""
   (generated)
   "01_report.bbl"
   "01_report.blg"
   (rewritten before read)
-["pdflatex"] 1729368952.1154 "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1729368962.7156 2
-  "01_report.aux" 1729368962 7336 4722b87981dda12cae223437c4472437 "pdflatex"
+["pdflatex"] 1729369082.89059 "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" "01_report.pdf" "01_report" 1729369094.16372 2
+  "01_report.aux" 1729369093 7336 fa0cd0dd5fc27c2cde0b50be4d2aea75 "pdflatex"
   "01_report.bbl" 1729368940 3030 2ae24edadc69f033930f57167cab0a55 "biber 01_report"
-  "01_report.out" 1729368962 2196 e0a4a0782778c05f74d25d8d6959cd64 "pdflatex"
-  "01_report.tex" 1729368935 22416 f01493c12ce44b29c4f7ab350d5aabec ""
-  "01_report.toc" 1729368962 1099 f882f237f7d7b2a9b15f45025b00887b "pdflatex"
+  "01_report.out" 1729369093 2196 e0a4a0782778c05f74d25d8d6959cd64 "pdflatex"
+  "01_report.tex" 1729369068 24152 aadf055597a0f28fc9ddee06a907ae9f ""
+  "01_report.toc" 1729369093 1099 f882f237f7d7b2a9b15f45025b00887b "pdflatex"
   "C:/Users/lucac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729330653 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lucac/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1728973031 14064 c67b0dde66620f00c6f18f3c86471554 ""
   "C:/Users/lucac/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727952671 11948197 c96530308ee783e898febcb31119d02a ""
@@ -150,7 +150,7 @@
   "Mandelbrot_far.jpg" 0 -1 0 ""
   "Tin_foil_balls.jpg" 0 -1 0 ""
   "Tin_foil_balls.png" 1729330535 6296324 93b15ed95d4901793705f9b1516ee9e5 ""
-  "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1729368935 22416 f01493c12ce44b29c4f7ab350d5aabec ""
+  "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/01_alluminio_frattale/report/01_report.tex" 1729369068 24152 aadf055597a0f28fc9ddee06a907ae9f ""
   "ln_mass_vs_ln_diameter.png" 1728972777 178787 71c516405e26ff83fbef62522c141499 ""
   "ln_mass_vs_ln_length.png" 1728972777 176052 c53afca66be9329e8e942cdf2332183a ""
   "logo.png" 0 -1 0 ""
