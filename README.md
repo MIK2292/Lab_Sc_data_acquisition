@@ -15,6 +15,7 @@ Nel dettaglio, le cartelle sono organizzate nel seguente modo:
 
 Le cartelle sono
 1. [01_alluminio_frattale](https://github.com/MIK2292/Lab_Sc_data_acquisition/tree/main/01_alluminio_frattale) - Misura della dimensionalità frattale delle palline fatte di foglio di alluminio
-2. [02_Signal_and_Noise]
+2. [02_Signal_and_Noise](https://github.com/MIK2292/Lab_Sc_data_acquisition/tree/main/
+02_Signal_and_Noise) - 
 3. bbb
 
