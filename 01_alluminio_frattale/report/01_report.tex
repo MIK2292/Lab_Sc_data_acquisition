@@ -69,7 +69,12 @@
 
 % Abstract
 \begin{abstract}
-    A brief summary of the experiment.
+This experiment investigates the fractal nature of crumpled aluminum spheres. Initially, we measured the mass and linear 
+dimensions of aluminum square sheets, confirming their two-dimensional nature through a power law relationship. Subsequently, 
+we rolled these sheets into spheres and measured their diameters and masses to determine their fractal dimensions. 
+Despite initial discrepancies, further analysis and exclusion of high-uncertainty data points yielded a fractal dimension between 2 and 3, 
+aligning with theoretical expectations. This study demonstrates the fractal characteristics of crumpled aluminum foil and highlights
+the importance of precise measurements and data analysis in experimental physics.
 \end{abstract}
 
 
@@ -87,11 +92,11 @@ fractal, felf-similarity, fractal dimension, Aluminum foil, spheres, curve, fitt
 \par The following experiment aims to demonstrate the fractal nature 
 of a very simple physical object: a small tin foil ball. 
  
-\par Fractal objects are objects which are characterised of the self-similarity 
-property; in simpler words, they look the same when observed at different scales.
-One of the most famous fractal object is the Mandelbrot set, but we can find these 
-objects also in nature, such as in the structure of a Romanesco Cauliflower, or 
-from a physical point of view; polymers can be regarded as fractals as well \cite{rubinstein-2003}.
+\par Fractal objects are characterised by the property of self-similarity; 
+in simpler words, they look the same when observed at different scales.
+One of the most famous fractal object is the Mandelbrot set, but we can find 
+other examples also in nature, such as in the structure of a Romanesco Cauliflower, or, 
+from a physical point of view, polymers can be regarded as fractals as well \cite{rubinstein-2003}.
 
 \begin{figure}[h]
     \centering
@@ -120,8 +125,10 @@ from a physical point of view; polymers can be regarded as fractals as well \cit
     }
 \end{figure}
 
-\par We observe the same level of complexity in the images, as seen from far away 
-and up close as shown in Fig. (\ref{fig:Cauliflower}) and Fig. (\ref{fig:Mandelbrot}) above.
+\par Another way to describe fractals is by looking at the level of complexity. 
+In the images Fig. (\ref{fig:Cauliflower}) and Fig. (\ref{fig:Mandelbrot}) above,
+we can observe the complexity level of some of these objects as seen from far away 
+and up close.
 
 \par From a mathematical point of view, we define a fractal from its changes 
 in terms of mass and volume. For example, we start from an object that we know: 
@@ -137,7 +144,7 @@ We can repeat the same reasoning with a metal cube, obtaining ultimately the for
 \[ M = D r^3 \]
 where $D$ is the volume density of the metal used. It has of course $3$ dimensions.
 
-\par Now, let's follow the same reasoning in our experiment. Since the physical data we 
+\par Now, let's apply this idea in our experiment. Since the physical data we 
 collect in the laboratory are the mass and the linear dimension of the system 
 (the tin foil ball), the unknown parameters will be the general density $k$ and 
 the dimensionality exponent $\alpha$, which is the fractal dimension of the system.
@@ -167,7 +174,7 @@ We begin by checking that we have everything at our disposal. In order to do so,
 Then we start off from the aluminum foil and we cut, using the scissors, a few square sheets of tin foil. 
 We had to be careful in cutting squares as perfect as possible in order to reduce the error in 
 the measurementes; to do so, we make use of both the ruler and the square. We cut squares of linear 
-dimensions of $2$ mm, $5$ mm, $8$ mm, $11$ mm, $14$ mm, $17$ mm, $20$ mm, $23$ mm, $26$ mm and $29$ mm.
+dimensions of $3$ mm, $5$ mm, $8$ mm, $11$ mm, $14$ mm, $17$ mm, $20$ mm, $23$ mm, $26$ mm and $29$ mm.
 
 \begin{figure}[h]
     \centering
@@ -177,7 +184,7 @@ dimensions of $2$ mm, $5$ mm, $8$ mm, $11$ mm, $14$ mm, $17$ mm, $20$ mm, $23$ m
 \end{figure}
 
 Next, for each square, we measure the mass three times using the precision balance. We also make measurements of the different 
-lenghts of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we collect all data in an excel spreadsheet which we show in the next section.
+lenghts of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we collect all data in an excel spreadsheet which we will show in the next section.
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.35\textwidth]{square_measure.png}
@@ -186,7 +193,8 @@ lenghts of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we 
 \end{figure}
 
 Now, we roll up every tin foil square into a sphere trying to have each ball at the same density as shown in Fig. (\ref{fig:tf_balls}). 
-Since we do this operation by hand, we can only have an idea of its density. This is the step in the 
+Since we do this operation by hand, we can only have an idea of its density. 
+This is the step in the experiment which brings in the maximum amount of error. 
 
 \begin{figure}[h!]
     \centering
@@ -204,9 +212,9 @@ Since we do this operation by hand, we can only have an idea of its density. Thi
     \label{fig:tf_balls}
 \end{figure}
 
-Once finished, our last measurent was to collect the information of the linear dimension (its diameter) 
-of each ball. We use the caliber or the micrometer (depending on the size of the ball) to measure the diameter 
-of the ball along three different axis. We put this data in an excel spreadsheet too.
+Once finished, our last measurent is to collect the information of the linear dimension 
+of each ball (its diameter). We use the caliber or the micrometer (depending on the size of the ball) to measure the diameter 
+along three different axis. We put this data in an excel spreadsheet, too.
 
 % Results (Graphs and Data)
 \section{Results}\label{sec:results}
@@ -418,15 +426,20 @@ We finally gather all the results obtained in the following table,
 
 % Conclusion 
 \section{Conclusion}\label{sec:conclusion}
-The purpose of this experiment is to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
-which are neither completely solid nor completely hollow, falls between 2 and 3.
-Following the procedure outlined in (\ref{subsec:exp_procedure}), we measured the mass and diameter of the aluminum spheres,
-we measured the sides of the alluminum squares and then crumpled them into alluminum spheres.
-All the collected data in shown in tables (\ref{tab:squares}) and (\ref{tab:balls}). 
-Next, we analyzed the graphs (\ref{fig:mass_vs_length}), (\ref{fig:ln_mass_vs_ln_length}), (\ref{fig:mass_vs_diameter}), (\ref{fig:ln_mass_vs_ln_diameter}) 
-initially applying a power law, followed by linear regression after linearizing Equation (\ref{eq:gen_fractal}).
-Afterward, is it possible to compare te results obtained with the power law with those obtained from the linear regression.
-
+The purpose of this experiment was to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
+which are neither completely solid nor completely hollow, falls between 2 and 3. 
+After following the procedure outlined in (\ref{subsec:exp_procedure}), we were able to obtain and analyze the data.
+In the first part of the experiment we were able to show that the dimentionality of the aluminum squares is close to $2$, as expected.
+However, the problem emerged when applying the same procedure to the aluminum spheres, where we obtained two significally different values 
+using differet methods. Is it possible to explain this discrepancy in the two values by noting that the balls were rolled up manually,
+this means that is impossible to roll with the same force each ball, which could have affected the measurements of the diameter and consequently the results obtained from the experiment.
+At the end we shown that by analyzing the residuals of the experimental data, we shown that the "problematic" data are the first and the last data points, which have the highest uncertainty,
+this means that we can obtain more reliable results by excluding these data points from the analysis and repeating the calculations, as we shown in table \ref{tab:summary_results}.
+In conclusion we could say that the experiment was successful in demonstrating the fractal nature of the alluminum foil spheres.
+However, there are several aspects that could have been improved. The inconsistency in the results obtained from different methods highlights 
+the need for more controlled conditions, particularly a better way to prepare the spheres. The manual rolling process introduced variability that likely affected the measurements. 
+Finally, increasing the number of data points could have further enhanced the reliability of the experiment.
+By addressing these areas,future experiments could yield more robust and reproducible results.
 
 
 % References
