@@ -1,0 +1,4 @@
+/report/*
+!/report/01_report.tex
+
+.vscode/
