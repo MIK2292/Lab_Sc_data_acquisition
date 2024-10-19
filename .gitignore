@@ -1,4 +1,10 @@
+# Ignore all files in the 'report' directory under '01_alluminio_frattale' except '01_report.tex'
+# Allow all JPEG and PNG image files
+# Ignore the '.vscode' directory
 01_alluminio_frattale/report/*
 !01_alluminio_frattale/report/01_report.tex
+
+!*.jpeg
+!*.png
 
 .vscode/
