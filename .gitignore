@@ -1,4 +1,4 @@
-/report/*
-!/report/01_report.tex
+/01_alluminio_frattale/report/*
+!/01_alluminio_frattale/report/01_report.tex
 
 .vscode/
