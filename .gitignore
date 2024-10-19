@@ -6,5 +6,7 @@
 
 !*.jpeg
 !*.png
+!*.jpg
+!*.pdf
 
 .vscode/
