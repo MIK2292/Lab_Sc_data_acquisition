@@ -2,8 +2,8 @@
 \contentsline {section}{\numberline {2}Materials and Methods}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Equipment and Tools}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Experimental Procedure}{5}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Results}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Part 1: Aluminum Foil Squares}{7}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Results}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Part 1: Aluminum Foil Squares}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Part 2: Crumpled Aluminum folis}{7}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Remarks on the Data processing}{8}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Discussion and Analysis}{8}{section.4}%
