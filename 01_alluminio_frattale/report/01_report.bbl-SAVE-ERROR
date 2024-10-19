@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{rubinstein-2003}{book}{}{}
+  \datalist[entry]{nty/global//global/global}
+    \entry{rubinstein-2003}{book}{}
       \name{author}{2}{}{%
         {{hash=afbc21c0ba7555cdd6a589cc59eb3c34}{%
            family={Rubinstein},
@@ -34,12 +34,10 @@
       }
       \strng{namehash}{3fb85f1167643ab494ab05117a6c6988}
       \strng{fullhash}{3fb85f1167643ab494ab05117a6c6988}
-      \strng{fullhashraw}{3fb85f1167643ab494ab05117a6c6988}
       \strng{bibnamehash}{3fb85f1167643ab494ab05117a6c6988}
       \strng{authorbibnamehash}{3fb85f1167643ab494ab05117a6c6988}
       \strng{authornamehash}{3fb85f1167643ab494ab05117a6c6988}
       \strng{authorfullhash}{3fb85f1167643ab494ab05117a6c6988}
-      \strng{authorfullhashraw}{3fb85f1167643ab494ab05117a6c6988}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
@@ -48,7 +46,7 @@
       \field{title}{{Polymer Physics}}
       \field{year}{2003}
     \endentry
-    \entry{taylor-1997}{book}{}{}
+    \entry{taylor-1997}{book}{}
       \name{author}{1}{}{%
         {{hash=29135c92972932ae2816374fb00f45f2}{%
            family={Taylor},
@@ -61,12 +59,10 @@
       }
       \strng{namehash}{29135c92972932ae2816374fb00f45f2}
       \strng{fullhash}{29135c92972932ae2816374fb00f45f2}
-      \strng{fullhashraw}{29135c92972932ae2816374fb00f45f2}
       \strng{bibnamehash}{29135c92972932ae2816374fb00f45f2}
       \strng{authorbibnamehash}{29135c92972932ae2816374fb00f45f2}
       \strng{authornamehash}{29135c92972932ae2816374fb00f45f2}
       \strng{authorfullhash}{29135c92972932ae2816374fb00f45f2}
-      \strng{authorfullhashraw}{29135c92972932ae2816374fb00f45f2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
