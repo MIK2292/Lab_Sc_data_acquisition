@@ -92,10 +92,10 @@ fractal, felf-similarity, fractal dimension, Aluminum foil, spheres, curve, fitt
 \par The following experiment aims to demonstrate the fractal nature 
 of a very simple physical object: a small tin foil ball. 
  
-\par Fractal objects are characterised by the property of self-similarity; 
+\par Fractal objects are characterized by the property of self-similarity; 
 in simpler words, they look the same when observed at different scales.
-One of the most famous fractal object is the Mandelbrot set, but we can find 
-other examples also in nature, such as in the structure of a Romanesco Cauliflower, or, 
+One of the most famous fractal objects is the Mandelbrot set, but other examples can be found 
+in nature, such as in the structure of a Romanesco Cauliflower, or, 
 from a physical point of view, polymers can be regarded as fractals as well \cite{rubinstein-2003}.
 
 \begin{figure}[h]
@@ -106,8 +106,8 @@ from a physical point of view, polymers can be regarded as fractals as well \cit
             % Cauliflower images
             \begin{subfigure}[b]{0.50\textwidth}
                 \centering
-                \includegraphics[width=\textwidth]{Cauliflower1.jpg}
-                \includegraphics[width=\textwidth]{Cauliflower.jpg}
+                \includegraphics[width=0.99\textwidth]{Cauliflower1.jpg}
+                \includegraphics[width=0.99\textwidth]{Cauliflower.jpg}
                 \caption{Cauliflower from far (top) and up close (bottom).}
                 \label{fig:Cauliflower}
             \end{subfigure} 
@@ -115,8 +115,8 @@ from a physical point of view, polymers can be regarded as fractals as well \cit
             % Mandelbrot images
             \begin{subfigure}[b]{0.485\textwidth}
                 \centering
-                \includegraphics[width=\textwidth]{Mandelbrot_far.jpg}
-                \includegraphics[width=\textwidth]{Mandelbrot_close.jpg}
+                \includegraphics[width=0.99\textwidth]{Mandelbrot_far.jpg}
+                \includegraphics[width=0.99\textwidth]{Mandelbrot_close.jpg}
                 \caption{Mandelbrot set from far (top) and up close (bottom).}
                 \label{fig:Mandelbrot}
             \end{subfigure}
@@ -133,16 +133,16 @@ and up close.
 \par From a mathematical point of view, we define a fractal from its changes 
 in terms of mass and volume. For example, we start from an object that we know: 
 a square sheet of paper. In this case we will have the mass distributed following the area of 
-the sheet, furthermore the mass grows as the square of the typical lenght of the 
-sheet (the side of the square which we will call $r$). The formula will be the 
+the sheet, furthermore the mass grows as the square of the typical length of the 
+sheet (the side of the square which we call $r$). The formula will be the 
 following 
-\[ M = C r^2 \]
+\[ M = C r^2, \]
 where $C$ is the surface density of the material of the sheet. We can say that the 
 dimension on the sheet of paper is equal to the exponent $2$.
 
 We can repeat the same reasoning with a metal cube, obtaining ultimately the formula
-\[ M = D r^3 \]
-where $D$ is the volume density of the metal used. It has of course $3$ dimensions.
+\[ M = D r^3, \]
+where $D$ is the volume density of the metal used. It is of course a three-dimensional object.
 
 \par Now, let's apply this idea in our experiment. Since the physical data we 
 collect in the laboratory are the mass and the linear dimension of the system 
@@ -176,19 +176,20 @@ We had to be careful in cutting squares as perfect as possible in order to reduc
 the measurementes; to do so, we make use of both the ruler and the square. We cut squares of linear 
 dimensions of $3$ mm, $5$ mm, $8$ mm, $11$ mm, $14$ mm, $17$ mm, $20$ mm, $23$ mm, $26$ mm and $29$ mm.
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.55\textwidth]{Lab_instruments.jpg}
     \caption{Our laboratory setup}
     \label{fig:lab_instr}
-\end{figure}
+\end{figure} 
 
 Next, for each square, we measure the mass three times using the precision balance. We also make measurements of the different 
-lenghts of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we collect all data in an excel spreadsheet which we will show in the next section.
-\begin{figure}[h]
+lengths of the square as represented in Fig (\ref{fig:sq_measure}). Finally, we collect all data in an excel spreadsheet which we will show in the next section.
+
+\begin{figure}[h!]
     \centering
     \includegraphics[width = 0.35\textwidth]{square_measure.png}
-    \caption{All the direction in which we measured the lenght of the side of the aluminum foil squares} 
+    \caption{All the direction in which we measured the length of the side of the aluminum foil squares} 
     \label{fig:sq_measure}
 \end{figure}
 
@@ -212,7 +213,7 @@ This is the step in the experiment which brings in the maximum amount of error.
     \label{fig:tf_balls}
 \end{figure}
 
-Once finished, our last measurent is to collect the information of the linear dimension 
+Once finished, our last measurment is to collect the information of the linear dimension 
 of each ball (its diameter). We use the caliber or the micrometer (depending on the size of the ball) to measure the diameter 
 along three different axis. We put this data in an excel spreadsheet, too.
 
@@ -267,13 +268,13 @@ in Table (\ref{tab:balls}).
     \label{tab:balls}
 \end{table}
 
-For the second part of the experiment, after having rolled up all the squares into balls, we proceded to measure each diameter as explained in the previous section. The data collected from this measurements is reported in Table (\ref{tab:balls}).
+For the second part of the experiment, after having rolled up all the squares into balls, we proceeded to measure each diameter as explained in the previous section. The data collected from this measurements is reported in Table (\ref{tab:balls}).
 
 
 
 
 \subsection{Remarks on the Data processing} 
-We also compute the natural logarithm of the mean values of the mass, the diameter and the lenght shown in the tables above. The related errors are calculated using traditional methods of error propagation \cite{taylor-1997}, having taking into account the uncertainties of both casual and systematic nature. The results are shown in Table (\ref{tab:ln_errors}). These quantities will be useful in the following sections for the computation of the fractal dimension of the system using the well known Least Squares method.
+We also compute the natural logarithm of the mean values of the mass, the diameter and the length shown in the tables above. The related errors are calculated using traditional methods of error propagation \cite{taylor-1997}, having taking into account the uncertainties of both casual and systematic nature. The results are shown in Table (\ref{tab:ln_errors}). These quantities will be useful in the following sections for the computation of the fractal dimension of the system using the well known Least Squares method.
 
 
 \begin{table}[!ht]
@@ -313,9 +314,9 @@ squares and their linear dimension, we can easily observe (as expected) that the
 \end{figure}
 
 The power law obtained from the data is given by the the equation $M = 0.0034 L^{1.9928}$ where $M$ corresponds 
-to the mass of the aluminum squares and $L$ to its linear dimension. The exponent of the power law in equation (\ref{eq:gen_fractal}) is very close 
+to the mass of the aluminum squares and $L$ to its linear dimension. The exponent of the power law in the previous equation is very close 
 to $2$, which is the expected value for a two-dimensional object; infact, we obtain a value of $\alpha = 1.99 \pm 0.01$ for the 
-exponent $\alpha$ and for the parameter $k$ the fit provided a value of $k = 0.0034 \pm 0.0001$. This law was obtained numerically 
+exponent and for the parameter $k$ the fit provided a value of $k = 0.0034 \pm 0.0001 \, g/cm^3$ . This law was obtained numerically 
 using the Python library \texttt{scipy} and the function \texttt{curve\_fit}, which uses a non-linear least squares method to compute these parameters. 
 This is a very satisfactory result supported by the associated $R^2$ parameter, which validates the fit of the 
 data to the expected power law.  
@@ -333,10 +334,10 @@ which clearly describe a linear dependence between the natural logarithm of the 
     \label{fig:ln_mass_vs_ln_length}
 \end{figure}
 
-As expected, we obtained that the data is well represented by a linear function, whose parameters $\ln(k)$ and $\alpha$ correspond to the slope and the intercept of the line, respectively. 
+As expected, we found that the data is well represented by a linear function, whose parameters $\ln(k)$ and $\alpha$ correspond to the slope and the intercept of the line, respectively. 
 The values obtained for these parameters are 
 \begin{align}
-    \ln(k) &= -6.07 \pm 0.11 \implies k = 0.0020 \pm 0.0003,\\ \notag
+    \ln(k) &= -6.07 \pm 0.11 \implies (k = 0.0020 \pm 0.0003) \, g/cm^3,\\ \notag
     \alpha &= 2.13 \pm  0.04.
 \end{align}
 
@@ -345,9 +346,9 @@ These values are in perfect agreement with the ones obtained from the previous m
 \subsection{Crumpled Aluminum Foil Spheres}
 On the other hand, for the second part of the experiment, we follow the same procedure as before, and now we study the relationship between the mass 
 of the aluminum squares (now crumpled aluminum balls) and their linear dimension: the diameter. The plot shown in Fig. (\ref{fig:mass_vs_diameter}) 
-describes this relationship and, as expected, the data is well represented by a power law whose parameters are $\alpha = 1.97 \pm 0.14$ and $k = 0.003 \pm 0.001$. 
+describes this relationship and, as expected, the data is well represented by a power law whose parameters are $\alpha = 1.97 \pm 0.14$ and $k = 0.003 \pm 0.001$ $g/mm^3$. 
 However, the exponent we obtained in this case contradicts our predictions since we expected a value ranging from $2$ to $3$. This discrepancy could be due to the fact 
-that the balls were not perfectly rolled up, which could have affected the measurements of the diameter and consequently the results obtained from the experiment. Even if the $R^2$ parameter is very close to $1$, 
+that the balls were not rolled up uniformly, which could have affected the measurements of the diameter and consequently the results obtained from the experiment. Even if the $R^2$ parameter is very close to $1$, 
 we can not consider the results obtained from this part of the experiment as satisfactory. 
 We consider that, one possible way to improve these results, could be collecting more data regarding the diameter of each ball by measuring them across several more different axis. 
 
@@ -370,7 +371,7 @@ Finally, we compare the previous results with the ones obtained from the Least S
 As before, we use the Least Square method to compute the parameters of the power law we are interested in.
 In Fig. (\ref{fig:ln_mass_vs_ln_diameter}), we show the linear law that best fits the data, whose parameters are 
 \begin{align}
-    \ln(k) &= -6.60 \pm 0.22 \implies k = 0.0010 \pm 0.0003,  \\ \notag
+    \ln(k) &= -6.60 \pm 0.22 \implies k = (1.0 \pm 0.3) \, g/cm^3,  \\ \notag
     \alpha &= 2.16 \pm  0.08
 \end{align}
 
@@ -382,7 +383,12 @@ These results are closer to the ones expected and we consider them more reliable
 We now make some comments about the results obtained in the previous section. In particular, 
 since the parameters obtained from the power law and the linear regression for the second part of the 
 experiments were not as satisfactory as expected, we decided to analyze the residuals of the experimental 
-data and the data predicted by the models (power law and linear regression). The results are shown in 
+data 
+\begin{equation}
+    \textbf{Residuals} = \text{Experimental Data} - \text{Data predicted by the models}
+\end{equation}
+
+and the data predicted by the models (power law and linear regression). The results are shown in 
 Fig. (\ref{fig:residuals}).
 
 \begin{figure}[h!]
@@ -394,7 +400,7 @@ Fig. (\ref{fig:residuals}).
  
 As we can see from these plots, in some cases there are some residuals that are not randomly distributed 
 around the zero line (as we expected them to be). We also observed that these residuals correspond in general 
-to the initial and final data points, which interestingly are the ones with the highest uncertainty. We address 
+to the initial and final data points, the former with the highest uncertainty. We address 
 this issue by excluding these data points from the analysis and repeating the calculations. The results obtained, 
 for our surprise, were noticably better than the previous ones. For instance, for the second part of the experiment
 we obtained a value of $\alpha = 2.47 \pm 0.07$ for the power law and using the linear regression the model provided 
@@ -423,25 +429,25 @@ We finally gather all the results obtained in the following table,
 
 
 
-
++ 
 % Conclusion 
 \section{Conclusion}\label{sec:conclusion}
-The purpose of this experiment was to demonstrate that the fractal dimension of our aluminum tinfoil spheres, 
-which are neither completely solid nor completely hollow, falls between 2 and 3. 
-After following the procedure outlined in (\ref{subsec:exp_procedure}), we were able to obtain and analyze the data.
-In the first part of the experiment we were able to show that the dimentionality of the aluminum squares is close to $2$, as expected.
-However, the problem emerged when applying the same procedure to the aluminum spheres, where we obtained two significally different values 
+The purpose of this experiment was to study the fractal dimension of two geometrically different objects: aluminum squares and aluminum tinfoil spheres, 
+the later being neither completely solid nor completely hollow, and whose dimentionality we demonstrated, falls between 2 and 3. 
+After following the procedure outlined in section (\ref{subsec:exp_procedure}), we were able to obtain and analyze the data.
+In the first part of the experiment we demonstrated that the dimensionality of the aluminum squares is close to $2$, as expected.
+However, the problem emerged when applying the same procedure to the aluminum spheres, where we obtained two significantly different values 
 using differet methods. Is it possible to explain this discrepancy in the two values by noting that the balls were rolled up manually,
-this means that is impossible to roll with the same force each ball, which could have affected the measurements of the diameter and consequently the results obtained from the experiment.
-At the end we shown that by analyzing the residuals of the experimental data, we shown that the "problematic" data are the first and the last data points, which have the highest uncertainty,
-this means that we can obtain more reliable results by excluding these data points from the analysis and repeating the calculations, as we shown in table \ref{tab:summary_results}.
-In conclusion we could say that the experiment was successful in demonstrating the fractal nature of the alluminum foil spheres.
-However, there are several aspects that could have been improved. The inconsistency in the results obtained from different methods highlights 
+this means that it was impossible to roll them up in the same way, which could have affected the measurements of the diameter and consequently the results obtained from the experiment.
+Finally, by analyzing the residuals of the experimental data, we found the first and the last data points to be "problematic", the former being the one with the highest uncertainty,
+this means that we can obtain more reliable results by excluding these data points from the analysis and repeating the calculations, as we shown in Table \ref{tab:summary_results}.
+In conclusion, we can say that the experiment was successful in demonstrating the fractal nature of the objects studied.
+However, several aspects could be improved; the inconsistency in the results obtained from different methods highlights 
 the need for more controlled conditions, particularly a better way to prepare the spheres. The manual rolling process introduced variability that likely affected the measurements. 
 Finally, increasing the number of data points could have further enhanced the reliability of the experiment.
-By addressing these areas,future experiments could yield more robust and reproducible results.
+By addressing these areas, future experiments could yield more robust and reproducible results.
 
-
+ 
 % References
 \newpage
 \printbibliography
