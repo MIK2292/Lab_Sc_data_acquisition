@@ -1,0 +1,9 @@
+Noise data
+mean = -0.029249999384
+std = 0.06230530289580732
+
+N bins used = 71.0
+length(obs) = 70
+chi quadro = 149.7723319191903
+chi quadro ridotto = 2.235407939092392
+
