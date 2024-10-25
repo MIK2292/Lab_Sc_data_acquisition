@@ -43,15 +43,9 @@ We can compare this plot with the image acquired directly from the oscilloscope
 in Fig (\ref{fig:sin+noise_signal}) and check for their similarity.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{signal01.pdf}
+    \includegraphics[width=1\textwidth]{signal01.pdf}
     \caption{One of our saved signal, composed of one sine wave and some noise.}
     \label{plot:raw_signal_and_noise}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{signal01_scatter.pdf}
-    \caption{One of our saved signal, composed of one sine wave and some noise.}
-    \label{plot:raw_signal_and_noise_scatter}
 \end{figure}
 
 \par As our second step, we compute the Fourier transform of the previous signal, 
@@ -72,13 +66,13 @@ a reflection of the data on the positive side of the same axis.
 Fig (\ref{plot:Fourier_signal}).
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{fft01.pdf}
+    \includegraphics[width=1\textwidth]{fft01.pdf}
     \caption{Fast Fourier Transform of the signal}
     \label{plot:Fourier_signal}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{fft01_dBV.pdf}
+    \includegraphics[width=1\textwidth]{fft01_dBV.pdf}
     \caption{Fast Fourier Transform of the signal in dBV}
     \label{plot:Fourier_signal_dBV}
 \end{figure}
@@ -106,17 +100,10 @@ we impose
 We have a plot for the reconstructed noise in Fig (\ref{plot:Only_noise}).
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{signal01_only_noise.pdf}
+    \includegraphics[width=1\textwidth]{signal01_only_noise.pdf}
     \caption{Reconstructed noise obtained from the inverse Fourier transform}
     \label{plot:Only_noise}
 \end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{signal01_only_noise_scatter.pdf}
-    \caption{Reconstructed noise obtained from the inverse Fourier transform}
-    \label{plot:Only_noise_scatter}
-\end{figure}
-
 
 \subsubsection{Statistical analysis of the reconstructed noise}
 \par From the data obtained from the previos section, we can conduct 
@@ -136,7 +123,7 @@ values for this distribution in overlay with the normalized histogram
 of the data from the noise.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Noise_hist_and_Normal_distr_expected_v.pdf}
+    \includegraphics[width=1\textwidth]{Noise_hist_and_Normal_distr_expected_v.pdf}
     \caption{Histogram of the noise in overlay with the expected values given by the Gaussian distribution.}
     \label{plot:Hist_Gauss}
 \end{figure}
@@ -178,28 +165,19 @@ we proceed with the study of the treatment of the noise using multiple signals.
 In particular, we will make use of all 32 different datasets of the same signal to 
 verify whether the error on the signal will fall off as the square root of the number of measures.
 
-\par We begin from an intuitive graph, Fig (\ref{plot:Noise_decay_signal}), where we show
-the signal obtained averaging different numbers of datasets. We can see how the error is 
-reduced from one average to the other.
+\par We begin from a graph, Fig (\ref{plot:Noise_decay_only_noise}), where we show the 
+reconstructed noise obtained averaging different numbers of datasets. It's important to say 
+that we first reconstruct the noise for every dataset, then we apply the average over these results. 
+Here the decay of the noise is very clear to see. 
+A similar plot for the signal is presented in Fig (\ref{plot:Noise_decay_signal}) in Appendix A.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Signal_fix.pdf}
-    \caption{Signal obtained from the average of different numbers of signal datasets.}
-    \label{plot:Noise_decay_signal}
-\end{figure}
-
-\par In Fig (\ref{plot:Noise_decay_only_noise}), we can see a similar plot as the one before, 
-but in this graph we only consider the reconstructed noise. Note that we first reconstruct the 
-noise for every dataset, then we apply the average over these results. Here the decay of the noise 
-is much more clear to see. 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Error_fix.pdf}
+    \includegraphics[width=1\textwidth]{Error_fix.pdf}
     \caption{Reconstructed noise obtained from the average of different numbers of noise datasets.}
     \label{plot:Noise_decay_only_noise}
 \end{figure}
 
-\par We then conduct some statistical analysis over the data in the last plot of 
+\par We then conduct some statistical analysis over the data in 
 Fig (\ref{plot:Noise_decay_only_noise}), that is the evaluation of the standard error.
 The results are presented in the Table (\ref{tab:sigma_error}).
 
@@ -218,21 +196,21 @@ The results are presented in the Table (\ref{tab:sigma_error}).
         \hline
     \end{tabular}
     \caption{Variation of the standard error of the reconstructed noise in function of the number of datasets condidered for the mean.}
-    \label{tab:summary_table}
+    \label{tab:sigma_error}
 \end{table}
 
-\par We will use this last data to verify our assumption, so we will assume a power law
-in these points. We will use the least square method applied to the power law case 
-in order to find the exponent, which we expect to be approximately $- \frac{1}{2}$.
+\par We will use this data to verify our assumption, so we will assume a power law
+that fits all these points. We will use the least square method applied to the 
+power law case in order to find the exponent, which we expect to be approximately $- \frac{1}{2}$.
 The Fig (\ref{plot:error_fit}) lets us have a look at our fit.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Std_error.pdf}
+    \includegraphics[width=0.7\textwidth]{Std_error.pdf}
     \caption{The standard errors of the noise and the best power law fit.}
     \label{plot:error_fit}
 \end{figure}
 
-\par The parameters and the error are reported in Table (\ref{tab:powerlaw_results}).
+\par The parameters for this fit and their error are reported in Table (\ref{tab:powerlaw_results}).
 
 \begin{table}[h]
     \centering
@@ -248,5 +226,23 @@ The Fig (\ref{plot:error_fit}) lets us have a look at our fit.
     \caption{All the parameter for the power law fit $y=A \cdot x^B$.}
     \label{tab:powerlaw_results}
 \end{table}
+
+We can see how the vaue for the parameter $B$, which is the exponent, 
+is very close to the expected value of $-0.5$. 
+
+
+
+
+
+
+\newpage
+\section{Appendix A: More figures}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Signal_fix.pdf}
+    \caption{Signal obtained from the average of different numbers of signal datasets.}
+    \label{plot:Noise_decay_signal}
+\end{figure}
+
 
 \end{document}

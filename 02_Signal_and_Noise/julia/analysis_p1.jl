@@ -46,7 +46,11 @@ plot(df[!,1] .* 1e3,df[!,2],
 	titlefontsize=15, 
 	size=plot_size,
 	bottom_margin=4Plots.mm,
-	left_margin=4Plots.mm)
+	left_margin=4Plots.mm,
+	marker=true,
+	markersize=0.5,
+	label="Signal",
+	legend=:bottomright)
 savefig("./signal01.pdf")
 
 #save signal (plot, WINDOWED)
@@ -158,7 +162,11 @@ plot(df[!,1] .* 1e3, real.(ifft_res),
 	xticks=(-2.5:0.5:2.5),
 	size=plot_size,
 	bottom_margin=4Plots.mm,
-	left_margin=4Plots.mm)
+	left_margin=4Plots.mm,
+	marker=true,
+	markersize=0.5,
+	label="Noise",
+	legend=:bottomright)
 savefig("./signal01_only_noise.pdf")
 
 #scatter signal without main frequency
