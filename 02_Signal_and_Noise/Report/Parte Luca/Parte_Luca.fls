@@ -227,6 +227,8 @@ OUTPUT Parte_Luca.pdf
 INPUT .\Parte_Luca.out
 INPUT .\Parte_Luca.out
 OUTPUT Parte_Luca.out
+INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\THE.png
 INPUT .\THE.png
 INPUT .\THE.png
@@ -277,12 +279,10 @@ INPUT .\f.t_pulse.png
 INPUT .\f.t_pulse.png
 INPUT .\f.t_pulse.png
 INPUT .\f.t_pulse.png
-INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\lucac\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT C:\Users\lucac\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\sin.png
 INPUT .\sin.png
 INPUT .\sin.png

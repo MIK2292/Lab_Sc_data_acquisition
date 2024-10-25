@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.3)  25 OCT 2024 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.3)  25 OCT 2024 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -733,15 +733,15 @@ Package hyperref Info: Link coloring ON on input line 34.
 <THE.png, id=15, 1164.35pt x 761.84625pt>
 File: THE.png Graphic file (type png)
 <use THE.png>
-Package pdftex.def Info: THE.png  used on input line 37.
-(pdftex.def)             Requested size: 113.24197pt x 74.08499pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+Package pdftex.def Info: THE.png  used on input line 41.
+(pdftex.def)             Requested size: 99.65349pt x 65.20363pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
  (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -750,12 +750,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <pulse.png, id=19, 560.0925pt x 376.40625pt>
 File: pulse.png Graphic file (type png)
 <use pulse.png>
-Package pdftex.def Info: pulse.png  used on input line 58.
+Package pdftex.def Info: pulse.png  used on input line 62.
 (pdftex.def)             Requested size: 181.18439pt x 121.76196pt.
 <f.t_pulse.png, id=20, 560.0925pt x 376.40625pt>
 File: f.t_pulse.png Graphic file (type png)
 <use f.t_pulse.png>
-Package pdftex.def Info: f.t_pulse.png  used on input line 65.
+Package pdftex.def Info: f.t_pulse.png  used on input line 69.
 (pdftex.def)             Requested size: 181.18439pt x 121.76196pt.
 
 
@@ -769,20 +769,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {C:/Users/lucac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./THE.png> <./pulse.png> <./f.t_pulse.png>]
-<sin.png, id=38, 653.44125pt x 366.61969pt>
+<sin.png, id=40, 653.44125pt x 366.61969pt>
 File: sin.png Graphic file (type png)
 <use sin.png>
-Package pdftex.def Info: sin.png  used on input line 107.
+Package pdftex.def Info: sin.png  used on input line 111.
 (pdftex.def)             Requested size: 181.18439pt x 101.65146pt.
-<noise.png, id=39, 654.19406pt x 363.60844pt>
+<noise.png, id=41, 654.19406pt x 363.60844pt>
 File: noise.png Graphic file (type png)
 <use noise.png>
-Package pdftex.def Info: noise.png  used on input line 114.
+Package pdftex.def Info: noise.png  used on input line 118.
 (pdftex.def)             Requested size: 181.18439pt x 100.70001pt.
-<noise_signal.png, id=40, 661.72218pt x 365.86688pt>
+<noise_signal.png, id=42, 661.72218pt x 365.86688pt>
 File: noise_signal.png Graphic file (type png)
 <use noise_signal.png>
-Package pdftex.def Info: noise_signal.png  used on input line 122.
+Package pdftex.def Info: noise_signal.png  used on input line 126.
 (pdftex.def)             Requested size: 181.18439pt x 100.17546pt.
 
 
@@ -793,7 +793,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2 <./sin.png> <./noise.png> <./noise_signal.png>]
+[2]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -802,7 +802,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (Parte_Luca.aux)
+[3 <./sin.png> <./noise.png> <./noise_signal.png>] (Parte_Luca.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -814,17 +814,17 @@ Package logreq Info: Writing requests to 'Parte_Luca.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22527 strings out of 473899
- 396006 string characters out of 5726500
+ 22526 strings out of 473899
+ 396002 string characters out of 5726500
  1246214 words of memory out of 5000000
  45077 multiletter control sequences out of 15000+600000
- 565578 words of font info for 85 fonts, out of 8000000 for 9000
+ 565529 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,81p,857b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,81p,857b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lucac\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Parte_Luca.pdf (3 pages, 1972237 bytes).
+Output written on Parte_Luca.pdf (3 pages, 1972548 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  16439 words of extra memory for PDF output out of 17280 (max. 10000000)
 
