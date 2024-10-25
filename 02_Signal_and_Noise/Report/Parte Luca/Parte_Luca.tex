@@ -11,11 +11,12 @@
 \usepackage{adjustbox}
 \usepackage{placeins}
 \usepackage{float}
+\usepackage{wrapfig}
 \usepackage[nopatch=item]{microtype}
 \usepackage{enumitem} % for customizing lists
 \usepackage[backend=biber]{biblatex} % for bibliography
 \usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\addbibresource{Sci. Data_01.bib} % specify your bibliography file
+%\addbibresource{Sci. Data_01.bib} % specify your bibliography file
 
 \setlength{\parindent}{1.27cm} % Indent first line of each paragraph by 1.27 cm (0.5 inches)
 
@@ -32,22 +33,23 @@
 
 \begin{document}
 
-
-\section*{Introduction}
-Fourier transform is the most widely used tools in applied mathematics
+\begin{wrapfigure}{l}{0.25\textwidth} % 'r' indica destra, '0.3\textwidth' la larghezza
+    \includegraphics[width=\linewidth]{THE.png}
+    \vspace{-25pt}
+\end{wrapfigure}
+ Fourier transform is the most widely used tools in applied mathematics
 to analyze signals. The essence of the Fourier transform of a waveform is to decompose
 or separate the waveform into a sum of sinusoids of different frequencies.
 If these sinusoids sum to the original waveform, then we have determined
 the Fourier transform of the waveform.
 Mathematically speaking, is it possible to write this relation as:
 $$
-\mathcal{F}(f) = \int_{-\infty}^{+\infty} s(t) e^{i2\pi f t} dt,
+\mathcal{S}(f) = \int_{-\infty}^{+\infty} s(t) e^{i2\pi f t} dt,
 $$
-where g(t) is the waveform to be decomposed into a sum of sinusoids
-and G(f) is the Fourier transform of g(t).
-%aggiungere perchè errori vanno come la radice 
+where s(t) is the waveform to be decomposed into a sum of sinusoids
+and $\mathcal{S}(f)$ is the Fourier transform of s(t).
 As an example, consider the
-pulse waveform (a) and its Fourier transform (b) shown the following figures.
+pulse waveform (\ref{fig:pulse}) and its Fourier transform (\ref{fig:fourier_pulse}) shown the following figures.
 \begin{figure}[H]
     \centering
     % First row with two images
@@ -55,18 +57,27 @@ pulse waveform (a) and its Fourier transform (b) shown the following figures.
         \centering
         \includegraphics[width=\linewidth]{pulse.png}
         \caption{pulse waveform}
+        \label{fig:pulse}
     \end{minipage}
     \hspace{0.05\linewidth} % Small horizontal space between images
     \begin{minipage}[b]{0.40\linewidth} % 45% of line width for the second image
         \centering
         \includegraphics[width=\linewidth]{f.t_pulse.png}
         \caption{Fourier transform }
+        \label{fig:fourier_pulse}
     \end{minipage}
 \end{figure}
-The purpose of this experiment is to use the Fourier transform to analyze a 
-signal affected by noise and check if the noise is "white noise" and if the 
-standard deviation of the mean decreases as the square root of the number of 
-acquisitions.
+The Fourier transform is a powerful tool for signal analysis and is also highly 
+effective for reducing noise within a signal. In this experiment, we analyze a
+sinusoidal signal affected by noise, where the noise is represented as a set of 
+discrete random variables that are uncorrelated, have zero mean and 
+finite variance. Given this, we apply the square root law, anticipating that 
+the standard deviation of the mean will decrease proportionally with the square 
+root of the number of acquisitions.
+Thus, the primary goals of this experiment are: first, to demonstrate 
+that we can use the Fourier transform to reduce noise and obtain a cleaner 
+signal, and second, to verify that the standard deviation of the mean indeed 
+decreases as predicted by the square root of the number of acquisitions.
 
 
 
@@ -90,14 +101,14 @@ The resulting waveform can be seen in the following figures.
 \begin{figure}[H]
     \centering
     % First row with two images
-    \begin{minipage}[b]{0.45\linewidth} % 45% of line width for the first image
+    \begin{minipage}[b]{0.40\linewidth} % 45% of line width for the first image
         \centering
         \label{fig:sin}
         \includegraphics[width=\linewidth]{sin.png}
         \caption{Sinusoidal signal}
     \end{minipage}
     \hspace{0.05\linewidth} % Small horizontal space between images
-    \begin{minipage}[b]{0.45\linewidth} % 45% of line width for the second image
+    \begin{minipage}[b]{0.40\linewidth} % 45% of line width for the second image
         \centering
         \label{fig:noise}
         \includegraphics[width=\linewidth]{noise.png}
@@ -106,7 +117,7 @@ The resulting waveform can be seen in the following figures.
     
     % Second row with centered image
     \vspace{0.5cm} % Vertical space between rows
-    \begin{minipage}[b]{0.45\linewidth} % 60% of line width for the third image
+    \begin{minipage}[b]{0.40\linewidth} % 60% of line width for the third image
         \centering
         \includegraphics[width=\linewidth]{noise_signal.png}
         \label{fig:sin+noise_signal}

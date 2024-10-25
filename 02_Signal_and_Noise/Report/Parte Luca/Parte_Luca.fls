@@ -1,6 +1,6 @@
-PWD c:\Users\lucac\Desktop\UNIVERSITA'\Science Data Processing and Acquisition\02_Noise_and_Signals
+PWD c:\Users\lucac\Desktop\UNIVERSITA'\Science Data Processing and Acquisition\Sci.Dat.Acq.a.Proc\Lab_Sc_data_acquisition\02_Signal_and_Noise\Report\Parte Luca
 INPUT C:\Users\lucac\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\lucac\Desktop\UNIVERSITA'\Science Data Processing and Acquisition\02_Noise_and_Signals\Parte_Luca.tex
+INPUT c:\Users\lucac\Desktop\UNIVERSITA'\Science Data Processing and Acquisition\Sci.Dat.Acq.a.Proc\Lab_Sc_data_acquisition\02_Signal_and_Noise\Report\Parte Luca\Parte_Luca.tex
 OUTPUT Parte_Luca.log
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -82,6 +82,8 @@ INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.s
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
@@ -204,6 +206,11 @@ INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\englis
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 OUTPUT Parte_Luca.bcf
+INPUT Parte_Luca.bbl
+INPUT .\Parte_Luca.bbl
+INPUT .\Parte_Luca.bbl
+INPUT .\Parte_Luca.bbl
+INPUT Parte_Luca.bbl
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -220,8 +227,13 @@ OUTPUT Parte_Luca.pdf
 INPUT .\Parte_Luca.out
 INPUT .\Parte_Luca.out
 OUTPUT Parte_Luca.out
-INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\THE.png
+INPUT .\THE.png
+INPUT .\THE.png
+INPUT .\THE.png
+INPUT .\THE.png
+INPUT .\THE.png
+INPUT .\THE.png
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -265,6 +277,8 @@ INPUT .\f.t_pulse.png
 INPUT .\f.t_pulse.png
 INPUT .\f.t_pulse.png
 INPUT .\f.t_pulse.png
+INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\lucac\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
