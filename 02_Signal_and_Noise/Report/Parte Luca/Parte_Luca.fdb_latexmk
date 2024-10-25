@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber Parte_Luca"] 1729868779.344 "Parte_Luca.bcf" "Parte_Luca.bbl" "Parte_Luca" 1729869165.74642 0
-  "Parte_Luca.bcf" 1729869165 107992 1372e320b8e132f38eb5706b82283cc8 "pdflatex"
+["biber Parte_Luca"] 1729868779.344 "Parte_Luca.bcf" "Parte_Luca.bbl" "Parte_Luca" 1729869356.82652 0
+  "Parte_Luca.bcf" 1729869356 107992 1372e320b8e132f38eb5706b82283cc8 "pdflatex"
   (generated)
   "Parte_Luca.bbl"
   "Parte_Luca.blg"
   (rewritten before read)
-["pdflatex"] 1729869162.96691 "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex" "Parte_Luca.pdf" "Parte_Luca" 1729869165.74846 0
+["pdflatex"] 1729869353.98395 "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex" "Parte_Luca.pdf" "Parte_Luca" 1729869356.82787 0
   "C:/Users/lucac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729854158 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lucac/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1728973031 14064 c67b0dde66620f00c6f18f3c86471554 ""
   "C:/Users/lucac/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727952671 11948197 c96530308ee783e898febcb31119d02a ""
@@ -132,13 +132,13 @@
   "C:/Users/lucac/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/lucac/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/lucac/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "Parte_Luca.aux" 1729869165 1971 48eb62475ea98bf8430dd54ac75b71e2 "pdflatex"
+  "Parte_Luca.aux" 1729869356 1971 698b8a8d0aa596f2b1716abc0096799a "pdflatex"
   "Parte_Luca.bbl" 1729868782 0 d41d8cd98f00b204e9800998ecf8427e "biber Parte_Luca"
-  "Parte_Luca.out" 1729869165 482 c4250c4c6b817424105ef07862ec3c3f "pdflatex"
-  "Parte_Luca.run.xml" 1729869165 2266 c364f88dacfa26a13b1be96d594a97e8 "pdflatex"
-  "Parte_Luca.tex" 1729869162 5898 21a9e02104f1fc9e9123901b9e7c32a3 ""
+  "Parte_Luca.out" 1729869356 482 c4250c4c6b817424105ef07862ec3c3f "pdflatex"
+  "Parte_Luca.run.xml" 1729869356 2266 c364f88dacfa26a13b1be96d594a97e8 "pdflatex"
+  "Parte_Luca.tex" 1729869350 5981 0a2a2cd91595b6af9fe8fda72b1d2d3c ""
   "THE.png" 1729868687 1425769 61e09c786481a015b7558e4591d65718 ""
-  "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex" 1729869162 5898 21a9e02104f1fc9e9123901b9e7c32a3 ""
+  "c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex" 1729869350 5981 0a2a2cd91595b6af9fe8fda72b1d2d3c ""
   "f.t_pulse.png" 1729547233 23765 4dafabc5931294e7aee3ade1abedba9a ""
   "noise.png" 1729518279 23836 f7cee85b23f66f00401ac758ba457662 ""
   "noise_signal.png" 1729518309 14874 ac53311f95642f059b2f2d614b07fc1e ""
