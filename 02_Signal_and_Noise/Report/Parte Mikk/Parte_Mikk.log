@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.25)  23 OCT 2024 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.25)  25 OCT 2024 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,7 +481,7 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box58
 )
-(./Parte_Mikk.aux)
+No file Parte_Mikk.aux.
 \openout1 = `Parte_Mikk.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -502,7 +502,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count299
@@ -605,45 +604,39 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
-
-(./Parte_Mikk.out) (./Parte_Mikk.out)
 \@outlinefile=\write3
 \openout3 = `Parte_Mikk.out'.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-<pulse.png, id=36, 560.0925pt x 376.40625pt>
-File: pulse.png Graphic file (type png)
-<use pulse.png>
-Package pdftex.def Info: pulse.png  used on input line 56.
-(pdftex.def)             Requested size: 181.18439pt x 121.76196pt.
-<f.t_pulse.png, id=38, 560.0925pt x 376.40625pt>
-File: f.t_pulse.png Graphic file (type png)
-<use f.t_pulse.png>
-Package pdftex.def Info: f.t_pulse.png  used on input line 62.
-(pdftex.def)             Requested size: 181.18439pt x 121.76196pt.
-<sin.png, id=39, 653.44125pt x 366.61969pt>
-File: sin.png Graphic file (type png)
-<use sin.png>
-Package pdftex.def Info: sin.png  used on input line 96.
-(pdftex.def)             Requested size: 203.83417pt x 114.36137pt.
-<noise.png, id=40, 654.19406pt x 363.60844pt>
-File: noise.png Graphic file (type png)
-<use noise.png>
-Package pdftex.def Info: noise.png  used on input line 103.
-(pdftex.def)             Requested size: 203.83417pt x 113.28891pt.
-<noise_signal.png, id=41, 661.72218pt x 365.86688pt>
-File: noise_signal.png Graphic file (type png)
-<use noise_signal.png>
-Package pdftex.def Info: noise_signal.png  used on input line 111.
-(pdftex.def)             Requested size: 203.83417pt x 112.69739pt.
 
-Overfull \vbox (268.95224pt too high) has occurred while \output is active []
+LaTeX Warning: Reference `plot:raw_signal_and_noise' on page 1 undefined on inp
+ut line 40.
+
+
+LaTeX Warning: Reference `fig:sin+noise_signal' on page 1 undefined on input li
+ne 43.
+
+<signal01.pdf, id=4, 803.0pt x 451.6875pt>
+File: signal01.pdf Graphic file (type pdf)
+<use signal01.pdf>
+Package pdftex.def Info: signal01.pdf  used on input line 46.
+(pdftex.def)             Requested size: 452.9679pt x 254.79727pt.
+
+LaTeX Warning: Reference `plot:Fourier_signal' on page 1 undefined on input lin
+e 66.
+
+<fft01.pdf, id=5, 803.0pt x 451.6875pt>
+File: fft01.pdf Graphic file (type pdf)
+<use fft01.pdf>
+Package pdftex.def Info: fft01.pdf  used on input line 69.
+(pdftex.def)             Requested size: 452.9679pt x 254.79727pt.
+<fft01_dBV.pdf, id=6, 803.0pt x 451.6875pt>
+File: fft01_dBV.pdf Graphic file (type pdf)
+<use fft01_dBV.pdf>
+Package pdftex.def Info: fft01_dBV.pdf  used on input line 75.
+(pdftex.def)             Requested size: 452.9679pt x 254.79727pt.
+
+Overfull \vbox (199.3784pt too high) has occurred while \output is active []
 
 
 
@@ -656,7 +649,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./pulse.png> <./f.t_pulse.png>]
+ <./signal01.pdf>]
+
+LaTeX Warning: Reference `plot:Fourier_signal_dBV' on page 2 undefined on input
+ line 80.
+
+
+pdfTeX warning (font expansion): font should be expanded before its first use
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -665,94 +670,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2 <./sin.png> <./noise.png> <./noise_signal.png>]
+[2 <./fft01.pdf> <./fft01_dBV.pdf>]
 
-Package caption Warning: \label without proper reference on input line 112.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `plot:Only_noise' on page 3 undefined on input line 10
+0.
 
-
-LaTeX Warning: Reference `fig:sin+noise_signal' on page 3 undefined on input li
-ne 151.
-
-<signal01.pdf, id=70, 803.0pt x 451.6875pt>
-File: signal01.pdf Graphic file (type pdf)
-<use signal01.pdf>
-Package pdftex.def Info: signal01.pdf  used on input line 154.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
-<signal01_scatter.pdf, id=71, 803.0pt x 451.6875pt>
-File: signal01_scatter.pdf Graphic file (type pdf)
-<use signal01_scatter.pdf>
-Package pdftex.def Info: signal01_scatter.pdf  used on input line 160.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3 <./signal01.pdf>]
-<fft01.pdf, id=79, 803.0pt x 451.6875pt>
-File: fft01.pdf Graphic file (type pdf)
-<use fft01.pdf>
-Package pdftex.def Info: fft01.pdf  used on input line 183.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
-<fft01_dBV.pdf, id=80, 803.0pt x 451.6875pt>
-File: fft01_dBV.pdf Graphic file (type pdf)
-<use fft01_dBV.pdf>
-Package pdftex.def Info: fft01_dBV.pdf  used on input line 189.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4 <./signal01_scatter.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5 <./fft01.pdf> <./fft01_dBV.pdf>]
-! Undefined control sequence.
-l.208     \mathcal{F}(1000\, Hz) = \left\lang
-                                              \mathcal{F}(f) \right\rang_I \\
-? 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   \math@bgroup 
-l.208 ...thcal{F}(1000\, Hz) = \left\lang \mathcal
-                                                  {F}(f) \right\rang_I \\
-? 
-! Undefined control sequence.
-l.208 ...) = \left\lang \mathcal{F}(f) \right\rang
-                                                  _I \\
-? 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   _
-l.208 ... = \left\lang \mathcal{F}(f) \right\rang_
-                                                  I \\
-? 
-<signal01_only_noise.pdf, id=97, 803.0pt x 451.6875pt>
+<signal01_only_noise.pdf, id=29, 803.0pt x 451.6875pt>
 File: signal01_only_noise.pdf Graphic file (type pdf)
 <use signal01_only_noise.pdf>
-Package pdftex.def Info: signal01_only_noise.pdf  used on input line 217.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
-<signal01_only_noise_scatter.pdf, id=98, 803.0pt x 451.6875pt>
-File: signal01_only_noise_scatter.pdf Graphic file (type pdf)
-<use signal01_only_noise_scatter.pdf>
-Package pdftex.def Info: signal01_only_noise_scatter.pdf  used on input line 22
-3.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
+Package pdftex.def Info: signal01_only_noise.pdf  used on input line 103.
+(pdftex.def)             Requested size: 452.9679pt x 254.79727pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -761,13 +688,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./signal01_only_noise.pdf>]
-<Noise_hist_and_Normal_distr_expected_v.pdf, id=106, 803.0pt x 451.6875pt>
+[3 <./signal01_only_noise.pdf>]
+
+LaTeX Warning: Reference `plot:Hist_Gauss' on page 4 undefined on input line 12
+1.
+
+<Noise_hist_and_Normal_distr_expected_v.pdf, id=40, 803.0pt x 451.6875pt>
 File: Noise_hist_and_Normal_distr_expected_v.pdf Graphic file (type pdf)
 <use Noise_hist_and_Normal_distr_expected_v.pdf>
 Package pdftex.def Info: Noise_hist_and_Normal_distr_expected_v.pdf  used on in
-put line 247.
-(pdftex.def)             Requested size: 407.66833pt x 229.31685pt.
+put line 126.
+(pdftex.def)             Requested size: 452.9679pt x 254.79727pt.
+
+LaTeX Warning: Reference `tab:summary_table' on page 4 undefined on input line 
+136.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -777,7 +711,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7 <./signal01_only_noise_scatter.pdf>]
+[4 <./Noise_hist_and_Normal_distr_expected_v.pdf>]
+
+LaTeX Warning: Reference `plot:Noise_decay_only_noise' on page 5 undefined on i
+nput line 168.
+
+
+LaTeX Warning: Reference `plot:Noise_decay_signal' on page 5 undefined on input
+ line 172.
+
+<Error_fix.pdf, id=48, 803.0pt x 1003.75pt>
+File: Error_fix.pdf Graphic file (type pdf)
+<use Error_fix.pdf>
+Package pdftex.def Info: Error_fix.pdf  used on input line 175.
+(pdftex.def)             Requested size: 452.9679pt x 566.21617pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -786,41 +733,102 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./Noise_hist_and_Normal_distr_expected_v.pdf>] (./Parte_Mikk.aux)
+[5]
+
+LaTeX Warning: Reference `plot:Noise_decay_only_noise' on page 6 undefined on i
+nput line 181.
+
+
+LaTeX Warning: Reference `tab:sigma_error' on page 6 undefined on input line 18
+2.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `plot:error_fit' on page 6 undefined on input line 205
+.
+
+<Std_error.pdf, id=56, 602.25pt x 401.5pt>
+File: Std_error.pdf Graphic file (type pdf)
+<use Std_error.pdf>
+Package pdftex.def Info: Std_error.pdf  used on input line 208.
+(pdftex.def)             Requested size: 317.07614pt x 211.39104pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./Error_fix.pdf>]
+
+LaTeX Warning: Reference `tab:powerlaw_results' on page 7 undefined on input li
+ne 213.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./Std_error.pdf>]
+<Signal_fix.pdf, id=72, 803.0pt x 1003.75pt>
+File: Signal_fix.pdf Graphic file (type pdf)
+<use Signal_fix.pdf>
+Package pdftex.def Info: Signal_fix.pdf  used on input line 242.
+(pdftex.def)             Requested size: 452.9679pt x 566.21617pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./Signal_fix.pdf>] (./Parte_Mikk.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `Parte_Mikk.out' has not changed.
-(rerunfilecheck)             Checksum: AC0E1F093B953782355E924F5A760D2B;1549.
+
+Package rerunfilecheck Warning: File `Parte_Mikk.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Parte_Mikk.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  160C2E8DBFF2EA42296B0B4403531B92;1624.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 18 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15278 strings out of 480247
- 249767 string characters out of 5896151
- 582436 words of memory out of 5000000
- 32910 multiletter control sequences out of 15000+600000
- 477340 words of font info for 83 fonts, out of 8000000 for 9000
+ 15228 strings out of 480247
+ 248891 string characters out of 5896151
+ 578195 words of memory out of 5000000
+ 32873 multiletter control sequences out of 15000+600000
+ 476964 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,69p,475b,1962s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/mikk/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec
-/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+ 60i,12n,69p,475b,1902s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Parte_Mikk.pdf (8 pages, 907655 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Parte_Mikk.pdf (8 pages, 1244333 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 118 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  28 named destinations out of 1000 (max. 500000)
- 18557 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 16425 words of extra memory for PDF output out of 17280 (max. 10000000)
 

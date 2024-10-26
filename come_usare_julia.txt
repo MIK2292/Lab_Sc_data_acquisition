@@ -1,0 +1,107 @@
++++ Come importare i moduli +++
+using CSV #legge i file csv
+using Plots #crea i plot
+
+
++++ cose generali +++
+a[end] #access last element of array a
+a[end-1] #access second last element of array a
+
+string(N) #parse as string
+
+
++++ Come aprire un file CSV ed usare i DataFrame +++
+using CSV, DataFrames, Statistics
+
+df = DataFrame(CSV.File(path)) #open dataframe
+
+df = DataFrame(nome_col => [1,2,3], nome_col2 => [1,2,4]) #create dataframe
+
+df[!,1] # returns the second colums of the dataframe
+df[!, "newColumn"] = Data # aggiunge una nuova colonna al dataframe
+
+CSV.write("nome_out.csv", df)
+
+mean(array) #evaluate the mean of the array
+std(array)
+
+
++++ Come plottare +++
+using Plots
+plot(x, y) #plot semplice
+
+plot(x, y, yerr=yerr, xerr=xerr) #plot con barre di errore
+plot(x, y, xaxis=:log, yaxis=:log) #plot log-log 
+#(natural log, use log2 or log10 for the others)
+plot(x, y, xlabel="xxx", ylabel="yyy", title="title")
+
+histogram(x) #histogram of x
+
+barhist(x) #bar plot of x (hystogram style)
+bar(x) #bar plot of x (gap between bars)
+scatter(x) #scatter plot
+#visit docs.juliaplots.org -> menu -> supported attributes 
+
+savefig("plot.png") #save last plot (use png or pdf)
+
+
+
++++ Fare linear regression +++
+
+aaa = lm(@formula(colY ~ colX), df, wts=df.errY .^ (-2)) 
+#least square method (i dati sono gli stessi di quelli calcolati con lo stesso metodo con python)
+
+# vedere le cose
+r2(aaa) #r2
+coef(aaa) #coefficienti
+stderror(aaa) #errore sui coefficienti
+residuals(aaa) #vettore dei residui
+
+
+
++++ FFT +++
+using WFFT
+
+#partendo da y = f(t) e x = t
+
+# PASSALI COME INT
+N_punti = 5000 #numero di punti nel campione
+fs = #frequenza di campionamento
+
+fft_res = fft(y) #calcola la fft e trova il vettore fft_y
+freq = fftfreq(N_punti, fs) #calcola le frequenze, cioè il vettore fft_x
+
+#SE DEVI TAGLIARE PICCHI O USI LA rfft OPPURE TAGLI ANCHE IL PICCO SIMMETRICO!!!!!
+
+fft_res_dbV = 20*log10.(fft_res) #ti da la fft in dbV
+
+
++++ funzioni, if e for +++
+
+function aaa(n::Int)
+	# function using int n
+end
+
+
+if #condition
+	#if body
+elseif #elseif condition
+	#elseif body
+end
+
+
+for i in 1:10
+	#for body
+end
+
+
+
+
+
+
+
+
+
+
+
+

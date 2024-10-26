@@ -49,7 +49,7 @@ println("std = ", s)
 
 #define the number of bins of the histogram 
 #just take as many bins as the square root of number of points
-N_bins = round(sqrt(length(data))) 
+N_bins = round( sqrt(length(data)) ) 
 println("") 
 println("N bins used = ", N_bins)
 
@@ -103,13 +103,20 @@ println("chi quadro ridotto = ", chi2/d)
 ### Now let's generate the plots
 
 #Histogram of data not normalized
-bar(r, Observed_values, xlabel="Noise (mV)", ylabel="Occurence", title="Noise histogram with " * string(N_bins) * " bins")
+bar(r, 
+	Observed_values, 
+	linewidth=0,
+	xlabel="Noise (mV)", 
+	ylabel="Occurence", 
+	title="Noise histogram with " * string(N_bins) * " bins"
+	)
 savefig("Noise_hist.pdf")
 
 #Histogram of data normalized, with expected distribution
 bar(r, Observed_values_norm, 
 	bar_width=step,
-	ylims=(0,0.06),
+	linewidth=0,
+	#ylims=(0,0.06),
 	xlabel="Noise (mV)", 
 	ylabel="pdf", 
 	title="Noise histogram normalized and expected distribution",
@@ -119,15 +126,14 @@ bar(r, Observed_values_norm,
 	bottom_margin=4Plots.mm,
 	left_margin=4Plots.mm)
 plot!(center_points, Expected_values, 
-	color=:orange)
-scatter!(center_points, Expected_values, 
-	color=:orange,
+	marker=true,
 	label="Expected values")
 savefig("Noise_hist_normalized_and_Normal_distr.pdf")
 
 #Histogram of data NOT normalized, with expected distribution
 bar(r, Observed_values, 
 	bar_width=step,
+	linewidth=0,
 	ylims=(0,300),
 	xlabel="Noise (mV)", 
 	ylabel="pdf", 
@@ -140,15 +146,21 @@ bar(r, Observed_values,
 	xticks=(-0.25:0.05:0.25),
 	yticks=(0:50:300))
 plot!(center_points, Expected_values_real, 
-	color=:orange)
-scatter!(center_points, Expected_values_real, 
-	color=:orange,
+	marker=true,
+	markersize=3,
 	label="Expected values")
 savefig("Noise_hist_and_Normal_distr_expected_v.pdf")
 
 #TEST: Histogram of expected values, with expected distribution
-bar(r, Expected_values, xlabel="Noise (mV)", ylabel="pdf", title="Expected values\nand expected distribution")
-scatter!(center_points, Expected_values)
+bar(r, 
+	Expected_values,
+	linewidth=0, 
+	xlabel="Noise (mV)", 
+	ylabel="pdf", 
+	title="Expected values\nand expected distribution"
+	)
+plot!(center_points, Expected_values, 
+	marker=true)
 savefig("Exp_values_and_Normal_distr.pdf")
 
 

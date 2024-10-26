@@ -78,8 +78,5 @@
     <requires type="dynamic">
       <file>Parte_Luca.bcf</file>
     </requires>
-    <requires type="editable">
-      <file>Sci. Data_01.bib</file>
-    </requires>
   </external>
 </requests>

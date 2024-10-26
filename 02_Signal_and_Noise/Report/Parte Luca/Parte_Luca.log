@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.22)  26 OCT 2024 23:10
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.3)  25 OCT 2024 17:15
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
+<<<<<<< HEAD
 **"c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex"
 (c:/Users/nelso/Documents/[Università]/[Laurea Magistrale]/[Primo Anno]/Scientific data acquisition and processing/Data Analysis/Lab_Sc_data_acquisition/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex
 LaTeX2e <2023-11-01> patch level 1
@@ -11,6 +16,16 @@ L3 programming layer <2024-01-04>
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+=======
+**"c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex"
+(c:/Users/lucac/Desktop/UNIVERSITA'/Science Data Processing and Acquisition/Sci.Dat.Acq.a.Proc/Lab_Sc_data_acquisition/02_Signal_and_Noise/Report/Parte Luca/Parte_Luca.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+(C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 )
 \c@part=\count187
 \c@section=\count188
@@ -230,25 +245,52 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@exts=\toks27
 \float@box=\box55
 \@float@everytoks=\toks28
+<<<<<<< HEAD
 \@floatcapt=\box56
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+=======
+\@floatcapt=\box57
+) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count291
+\WF@box=\box58
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+<<<<<<< HEAD
 \etb@tempcnta=\count284
 )
 \MT@toks=\toks29
 \MT@tempbox=\box57
 \MT@count=\count285
+=======
+\etb@tempcnta=\count292
+)
+\MT@toks=\toks30
+\MT@tempbox=\box59
+\MT@count=\count293
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
 LaTeX Info: Redefining \leftprotrusion on input line 1062.
-\MT@prot@toks=\toks30
+\MT@prot@toks=\toks31
 LaTeX Info: Redefining \rightprotrusion on input line 1081.
 LaTeX Info: Redefining \textls on input line 1392.
+<<<<<<< HEAD
 \MT@outer@kern=\dimen184
 LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
 \MT@listname@count=\count286
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+=======
+\MT@outer@kern=\dimen187
+LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
+\MT@listname@count=\count294
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 902.
 LaTeX Info: Redefining \lslig on input line 902.
@@ -259,6 +301,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
 )) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
+<<<<<<< HEAD
 \labelindent=\skip63
 \enit@outerparindent=\dimen185
 \enit@toks=\toks31
@@ -268,6 +311,17 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+=======
+\labelindent=\skip64
+\enit@outerparindent=\dimen188
+\enit@toks=\toks32
+\enit@inbox=\box60
+\enit@count@id=\count295
+\enitdp@description=\count296
+) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
@@ -283,8 +337,13 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
+<<<<<<< HEAD
 \lrq@indent=\count289
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+=======
+\lrq@indent=\count297
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
@@ -292,6 +351,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+<<<<<<< HEAD
 \c@tabx@nest=\count290
 \c@listtotal=\count291
 \c@listcount=\count292
@@ -349,6 +409,65 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincomprange=\count333
 \c@maxcomprange=\count334
 \c@mincompwidth=\count335
+=======
+\c@tabx@nest=\count298
+\c@listtotal=\count299
+\c@listcount=\count300
+\c@liststart=\count301
+\c@liststop=\count302
+\c@citecount=\count303
+\c@citetotal=\count304
+\c@multicitecount=\count305
+\c@multicitetotal=\count306
+\c@instcount=\count307
+\c@maxnames=\count308
+\c@minnames=\count309
+\c@maxitems=\count310
+\c@minitems=\count311
+\c@citecounter=\count312
+\c@maxcitecounter=\count313
+\c@savedcitecounter=\count314
+\c@uniquelist=\count315
+\c@uniquename=\count316
+\c@refsection=\count317
+\c@refsegment=\count318
+\c@maxextratitle=\count319
+\c@maxextratitleyear=\count320
+\c@maxextraname=\count321
+\c@maxextradate=\count322
+\c@maxextraalpha=\count323
+\c@abbrvpenalty=\count324
+\c@highnamepenalty=\count325
+\c@lownamepenalty=\count326
+\c@maxparens=\count327
+\c@parenlevel=\count328
+\blx@tempcnta=\count329
+\blx@tempcntb=\count330
+\blx@tempcntc=\count331
+\c@blx@maxsection=\count332
+\blx@maxsegment@0=\count333
+\blx@notetype=\count334
+\blx@parenlevel@text=\count335
+\blx@parenlevel@foot=\count336
+\blx@sectionciteorder@0=\count337
+\blx@sectionciteorderinternal@0=\count338
+\blx@entrysetcounter=\count339
+\blx@biblioinstance=\count340
+\labelnumberwidth=\skip65
+\labelalphawidth=\skip66
+\biblabelsep=\skip67
+\bibitemsep=\skip68
+\bibnamesep=\skip69
+\bibinitsep=\skip70
+\bibparsep=\skip71
+\bibhang=\skip72
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count341
+\c@maxcomprange=\count342
+\c@mincompwidth=\count343
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -356,6 +475,7 @@ File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+<<<<<<< HEAD
 \c@afterword=\count336
 \c@savedafterword=\count337
 \c@annotator=\count338
@@ -438,6 +558,90 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip83
 \localshortauthorwidth=\skip84
 \localshorteditorwidth=\skip85
+=======
+\c@afterword=\count344
+\c@savedafterword=\count345
+\c@annotator=\count346
+\c@savedannotator=\count347
+\c@author=\count348
+\c@savedauthor=\count349
+\c@bookauthor=\count350
+\c@savedbookauthor=\count351
+\c@commentator=\count352
+\c@savedcommentator=\count353
+\c@editor=\count354
+\c@savededitor=\count355
+\c@editora=\count356
+\c@savededitora=\count357
+\c@editorb=\count358
+\c@savededitorb=\count359
+\c@editorc=\count360
+\c@savededitorc=\count361
+\c@foreword=\count362
+\c@savedforeword=\count363
+\c@holder=\count364
+\c@savedholder=\count365
+\c@introduction=\count366
+\c@savedintroduction=\count367
+\c@namea=\count368
+\c@savednamea=\count369
+\c@nameb=\count370
+\c@savednameb=\count371
+\c@namec=\count372
+\c@savednamec=\count373
+\c@translator=\count374
+\c@savedtranslator=\count375
+\c@shortauthor=\count376
+\c@savedshortauthor=\count377
+\c@shorteditor=\count378
+\c@savedshorteditor=\count379
+\c@labelname=\count380
+\c@savedlabelname=\count381
+\c@institution=\count382
+\c@savedinstitution=\count383
+\c@lista=\count384
+\c@savedlista=\count385
+\c@listb=\count386
+\c@savedlistb=\count387
+\c@listc=\count388
+\c@savedlistc=\count389
+\c@listd=\count390
+\c@savedlistd=\count391
+\c@liste=\count392
+\c@savedliste=\count393
+\c@listf=\count394
+\c@savedlistf=\count395
+\c@location=\count396
+\c@savedlocation=\count397
+\c@organization=\count398
+\c@savedorganization=\count399
+\c@origlocation=\count400
+\c@savedoriglocation=\count401
+\c@origpublisher=\count402
+\c@savedorigpublisher=\count403
+\c@publisher=\count404
+\c@savedpublisher=\count405
+\c@language=\count406
+\c@savedlanguage=\count407
+\c@origlanguage=\count408
+\c@savedoriglanguage=\count409
+\c@pageref=\count410
+\c@savedpageref=\count411
+\shorthandwidth=\skip73
+\shortjournalwidth=\skip74
+\shortserieswidth=\skip75
+\shorttitlewidth=\skip76
+\shortauthorwidth=\skip77
+\shorteditorwidth=\skip78
+\locallabelnumberwidth=\skip79
+\locallabelalphawidth=\skip80
+\localshorthandwidth=\skip81
+\localshortjournalwidth=\skip82
+\localshortserieswidth=\skip83
+\localshorttitlewidth=\skip84
+\localshortauthorwidth=\skip85
+\localshorteditorwidth=\skip86
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -445,6 +649,7 @@ File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
+<<<<<<< HEAD
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count404
@@ -460,6 +665,23 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
 \c@smartand=\count412
+=======
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count412
+\c@textcitetotal=\count413
+\c@textcitemaxnames=\count414
+\c@biburlbigbreakpenalty=\count415
+\c@biburlbreakpenalty=\count416
+\c@biburlnumpenalty=\count417
+\c@biburlucpenalty=\count418
+\c@biburllcpenalty=\count419
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count420
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -467,10 +689,17 @@ Package biblatex Info: ... file 'numeric.bbx' found.
 File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
+<<<<<<< HEAD
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count413
 \c@bbx:relatedtotal=\count414
+=======
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count421
+\c@bbx:relatedtotal=\count422
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -495,12 +724,21 @@ File: biblatex.cfg
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
+<<<<<<< HEAD
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-01-04 L3 programming layer (loader) 
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count415
 \l__pdf_internal_box=\box59
+=======
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-08-30 L3 programming layer (loader) 
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count423
+\l__pdf_internal_box=\box61
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-04 L3 programming layer (loader) 
@@ -529,6 +767,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
+<<<<<<< HEAD
 \c@section@level=\count416
 )
 \@linkdim=\dimen186
@@ -536,14 +775,31 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \Hy@pagecounter=\count418
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+=======
+\c@section@level=\count424
+) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen189
+\Hy@linkcounter=\count425
+\Hy@pagecounter=\count426
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
+<<<<<<< HEAD
 \Hy@SavedSpaceFactor=\count419
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+=======
+\Hy@SavedSpaceFactor=\count427
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -554,15 +810,24 @@ Package hyperref Info: Hyper index ON on input line 4189.
 Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+<<<<<<< HEAD
 Package hyperref Info: Bookmarks ON on input line 4448.
 \c@Hy@tempcnt=\count420
 LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen187
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+=======
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count428
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen190
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
+<<<<<<< HEAD
 \Fld@menulength=\count421
 \Field@Width=\dimen188
 \Fld@charsize=\dimen189
@@ -580,6 +845,25 @@ package with kernel methods
 \Hy@abspage=\count422
 \c@Item=\count423
 \c@Hfootnote=\count424
+=======
+\Fld@menulength=\count429
+\Field@Width=\dimen191
+\Fld@charsize=\dimen192
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count430
+\c@Item=\count431
+\c@Hfootnote=\count432
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -588,9 +872,15 @@ File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
+<<<<<<< HEAD
 \Fld@listcount=\count425
 \c@bookmark@seq@number=\count426
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+=======
+\Fld@listcount=\count433
+\c@bookmark@seq@number=\count434
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -599,6 +889,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip86
 )
+<<<<<<< HEAD
 \@quotelevel=\count427
 \@quotereset=\count428
  (Parte_Luca.aux)
@@ -636,6 +927,45 @@ LaTeX Font Info:    ... okay on input line 33.
 \makeMPintoPDFobject=\count434
 \everyMPtoPDFconversion=\toks33
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+=======
+\@quotelevel=\count435
+\@quotereset=\count436
+ (Parte_Luca.aux)
+\openout1 = `Parte_Luca.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count437
+\scratchdimen=\dimen193
+\scratchbox=\box62
+\nofMPsegments=\count438
+\nofMParguments=\count439
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count440
+\MPscratchDim=\dimen194
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
+\everyMPtoPDFconversion=\toks34
+) (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
@@ -678,19 +1008,20 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 33.
-Package microtype Info: Applying patch `toc' on input line 33.
-Package microtype Info: Applying patch `eqnum' on input line 33.
-Package microtype Info: Applying patch `footnote' on input line 33.
-Package microtype Info: Applying patch `verbatim' on input line 33.
+LaTeX Info: Redefining \microtypecontext on input line 34.
+Package microtype Info: Applying patch `toc' on input line 34.
+Package microtype Info: Applying patch `eqnum' on input line 34.
+Package microtype Info: Applying patch `footnote' on input line 34.
+Package microtype Info: Applying patch `verbatim' on input line 34.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 33.
+LaTeX Info: Redefining \showhyphens on input line 34.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -708,6 +1039,7 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Parte_Luca.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
+<<<<<<< HEAD
 Package biblatex Info: ... file 'Parte_Luca.bbl' not found.
 
 No file Parte_Luca.bbl.
@@ -721,31 +1053,60 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 33.
+=======
+Package biblatex Info: ... file 'Parte_Luca.bbl' found.
+ (Parte_Luca.bbl)
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 34.
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
  (Parte_Luca.out) (Parte_Luca.out)
 \@outlinefile=\write4
 \openout4 = `Parte_Luca.out'.
 
+<<<<<<< HEAD
 LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+=======
+<THE.png, id=15, 1164.35pt x 761.84625pt>
+File: THE.png Graphic file (type png)
+<use THE.png>
+Package pdftex.def Info: THE.png  used on input line 41.
+(pdftex.def)             Requested size: 99.65349pt x 65.20363pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+=======
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+ (C:\Users\lucac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\nelso\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<pulse.png, id=15, 560.0925pt x 376.40625pt>
+<pulse.png, id=19, 560.0925pt x 376.40625pt>
 File: pulse.png Graphic file (type png)
 <use pulse.png>
-Package pdftex.def Info: pulse.png  used on input line 56.
+Package pdftex.def Info: pulse.png  used on input line 63.
 (pdftex.def)             Requested size: 181.18439pt x 121.76196pt.
-<f.t_pulse.png, id=17, 560.0925pt x 376.40625pt>
+<f.t_pulse.png, id=20, 560.0925pt x 376.40625pt>
 File: f.t_pulse.png Graphic file (type png)
 <use f.t_pulse.png>
-Package pdftex.def Info: f.t_pulse.png  used on input line 62.
+Package pdftex.def Info: f.t_pulse.png  used on input line 70.
 (pdftex.def)             Requested size: 181.18439pt x 121.76196pt.
 
 
@@ -755,24 +1116,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+<<<<<<< HEAD
 [1{C:/Users/nelso/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 {C:/Users/nelso/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./pulse.png> <./f.t_pulse.png>]
 <sin.png, id=36, 653.44125pt x 366.61969pt>
+=======
+[1
+
+{C:/Users/lucac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./THE.png> <./pulse.png> <./f.t_pulse.png>]
+<sin.png, id=40, 653.44125pt x 366.61969pt>
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 File: sin.png Graphic file (type png)
 <use sin.png>
-Package pdftex.def Info: sin.png  used on input line 96.
-(pdftex.def)             Requested size: 203.83417pt x 114.36137pt.
-<noise.png, id=37, 654.19406pt x 363.60844pt>
+Package pdftex.def Info: sin.png  used on input line 112.
+(pdftex.def)             Requested size: 181.18439pt x 101.65146pt.
+<noise.png, id=41, 654.19406pt x 363.60844pt>
 File: noise.png Graphic file (type png)
 <use noise.png>
-Package pdftex.def Info: noise.png  used on input line 103.
-(pdftex.def)             Requested size: 203.83417pt x 113.28891pt.
-<noise_signal.png, id=38, 661.72218pt x 365.86688pt>
+Package pdftex.def Info: noise.png  used on input line 119.
+(pdftex.def)             Requested size: 181.18439pt x 100.70001pt.
+<noise_signal.png, id=42, 661.72218pt x 365.86688pt>
 File: noise_signal.png Graphic file (type png)
 <use noise_signal.png>
-Package pdftex.def Info: noise_signal.png  used on input line 111.
-(pdftex.def)             Requested size: 203.83417pt x 112.69739pt.
+Package pdftex.def Info: noise_signal.png  used on input line 127.
+(pdftex.def)             Requested size: 181.18439pt x 100.17546pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -781,7 +1149,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2 <./sin.png> <./noise.png> <./noise_signal.png>]
+[2]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -789,7 +1157,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (Parte_Luca.aux)
+[3 <./sin.png> <./noise.png> <./noise_signal.png>] (Parte_Luca.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -810,6 +1178,7 @@ Package logreq Info: Writing requests to 'Parte_Luca.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  22313 strings out of 474486
  392732 string characters out of 5743755
  1934542 words of memory out of 5000000
@@ -823,4 +1192,19 @@ PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  16434 words of extra memory for PDF output out of 17280 (max. 10000000)
+=======
+ 22526 strings out of 473899
+ 396002 string characters out of 5726500
+ 1246214 words of memory out of 5000000
+ 45077 multiletter control sequences out of 15000+600000
+ 565529 words of font info for 84 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,81p,857b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lucac\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Parte_Luca.pdf (3 pages, 1972548 bytes).
+PDF statistics:
+ 98 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 16439 words of extra memory for PDF output out of 17280 (max. 10000000)
+>>>>>>> bd3310ad912bc8895aba60e52ea066aa410aeab0
 

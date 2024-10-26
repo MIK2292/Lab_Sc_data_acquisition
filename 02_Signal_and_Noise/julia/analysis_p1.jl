@@ -11,6 +11,17 @@ df = DataFrame(CSV.File(".\\sum_signal\\sum_1.csv"))
 
 
 
+
+#HANN WINDOW
+USE_HANN_WINDOW = false
+
+if USE_HANN_WINDOW == true
+	x = df[!,1]
+	window_size = x[end] - x[1]
+	hann_window =@. cos(x * pi/window_size)^2
+	df[!, "Windowed_value"] = df[!,2] .* hann_window
+end
+
 #set some parameters
 N_punti = length(df[!,1]) #Numero di punti 
 fs = 1000000 #frequenza di campionamento
@@ -18,13 +29,17 @@ plot_size = (800, 450) #plot dimension in pixels
 
 
 #evaluate fft
-fft_res = fft(df[!,2])
+if USE_HANN_WINDOW == true
+	fft_res = fft(df[!,3]) # WINDOWED
+else 
+	fft_res = fft(df[!,2]) #NON WINDOWED
+end
 freq = fftfreq(N_punti, fs)
 
 #eval fft in dBV
 fft_res_dBV = 20*log10.(fft_res)
 
-#save signal (plot)
+#save signal (plot, NON WINDOWED)
 plot(df[!,1] .* 1e3,df[!,2], 
 	xlabel="Time (ms)", 
 	ylabel="Amplitude (V)", 
@@ -34,8 +49,27 @@ plot(df[!,1] .* 1e3,df[!,2],
 	titlefontsize=15, 
 	size=plot_size,
 	bottom_margin=4Plots.mm,
-	left_margin=4Plots.mm)
+	left_margin=4Plots.mm,
+	marker=true,
+	markersize=0.5,
+	label="Signal",
+	legend=:bottomright)
 savefig("./signal01.pdf")
+
+#save signal (plot, WINDOWED)
+if USE_HANN_WINDOW == true
+	plot(df[!,1] .* 1e3,df[!,3], 
+		xlabel="Time (ms)", 
+		ylabel="Amplitude (V)", 
+		title="Windowed signal of sine wave and noise",
+		grid=true, 
+		xticks=(-2.5:0.5:2.5),
+		titlefontsize=15, 
+		size=plot_size,
+		bottom_margin=4Plots.mm,
+		left_margin=4Plots.mm)
+	savefig("./signal01_window.pdf")
+end
 
 #save signal (scatter)
 scatter(df[!,1] .* 1e3 ,df[!,2], 
@@ -85,12 +119,22 @@ savefig("./fft01_dBV.pdf")
 
 
 #set to zero the main frequency
-fft_res[6] = mean(fft_res[7:27])
+fft_res[6] = 1 #mean(fft_res[10:100])
 fft_res[end-4] = fft_res[6]
 
+if USE_HANN_WINDOW == true
+	fft_res[end-3] = fft_res[6]
+	fft_res[end-5] = fft_res[6]
+	fft_res[7] = fft_res[6]
+	fft_res[5] = fft_res[6]
+	fft_res[1] = fft_res[6]
+	fft_res[end] = fft_res[6]
+	fft_res[2] = fft_res[6]
+end
+
 #save fft w/ main frequency
-plot(freq[1:div(N_punti, 2)], 
-	hypot.(fft_res[1:div(N_punti, 2)]) ./ 1e3, 
+plot(freq[1:div(N_punti, 2)] ./ 1e3, 
+	hypot.(fft_res[1:div(N_punti, 2)]), 
 	xlim=(0,50000), 
 	xlabel="Frequency (kHz)", 
 	ylabel="Magnitude", 
@@ -121,7 +165,11 @@ plot(df[!,1] .* 1e3, real.(ifft_res),
 	xticks=(-2.5:0.5:2.5),
 	size=plot_size,
 	bottom_margin=4Plots.mm,
-	left_margin=4Plots.mm)
+	left_margin=4Plots.mm,
+	marker=true,
+	markersize=0.5,
+	label="Noise",
+	legend=:bottomright)
 savefig("./signal01_only_noise.pdf")
 
 #scatter signal without main frequency
