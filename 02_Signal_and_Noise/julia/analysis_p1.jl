@@ -7,12 +7,15 @@ default(fontfamily=plot_font,
 scalefontsizes(1.3)
 
 #create dataframe and load data
-df = DataFrame(CSV.File("sum_signal/sum_1.csv"))
+df = DataFrame(CSV.File(".\\sum_signal\\sum_1.csv"))
+
+
 
 #set some parameters
 N_punti = length(df[!,1]) #Numero di punti 
 fs = 1000000 #frequenza di campionamento
 plot_size = (800, 450) #plot dimension in pixels
+
 
 #evaluate fft
 fft_res = fft(df[!,2])
