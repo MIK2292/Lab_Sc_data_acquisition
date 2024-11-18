@@ -1,0 +1,6 @@
+Resistenza = 21.79 +/- 0.01 kOhm
+Resistenza = 355.7 +/- 0.1 Ohm
+Cavo Giallo (10 +/- 2)cm  = 0.12 +/- 0.01 0hm
+ 
+
+
